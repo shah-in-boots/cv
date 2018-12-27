@@ -112,7 +112,7 @@ h1,h2,h3,h4 {
 }
 
 h1 {
-	color: #756867;
+	color: #9e5a63;
 	text-align: left;
 	font-size: 3em;
 	line-height: 1em;
@@ -134,8 +134,7 @@ h1+p {
 
 h2 {
 	font-size: 1.5em;
-	/* color: #a00; */
-	color: #353C3F;
+	color: #97aabd;
 	margin-top: 2em;
 	position: relative;
 	top: 1.4em;
@@ -144,7 +143,7 @@ h2 {
 }
 
 h3 {
-	color: #FF8D3F;
+	color: #c96567;
 	font-size: 1.2em;
 	line-height: 2em;
 	position: relative;
