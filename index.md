@@ -12,7 +12,7 @@ title: Curriculum Vitae
 <i class="fa fa-twitter"></i> <a href="http://twitter.com/shah_in_boots">Anish Shah</a>
 </div>
 
-Resident physician in internal medicine, with an interest in heart rate variability and epidemiology, biostatistics, and point-of-care ultrasonography.
+Resident physician in internal medicine, with an interest in heart rate variability, epidemiology, biostatistics, and point-of-care ultrasonography.
 
 ## Personal information
 
@@ -151,12 +151,27 @@ Physician Assistant Program
 Didactic Experiential Learning Program  
 *Faculty Preceptor*
 
-### Mentorship Roles
+### Supervisory Roles
 
-**Students**: Julie Sommer, PA-S, April 2017 to August 2018; John Ward, M3, January 2018; Deema Elchoufi, M3, April 2018; Hugo Cavalia, M4, July 2018; Brian Mott, M3, August 2018; Anna Coronata, M3, December 2018; Eli Mlaver, M3, December 2018
+**Students**:   
+Julie Sommer, PA-S - April 2017 to August 2018  
+John Ward, M3 - January 2018  
+Deema Elchoufi, M3 - April 2018  
+Hugo Cavalia, M4 - July 2018  
+Brian Mott, M3 - August 2018  
+Anna Coronata, M3 - December 2018  
+Eli Mlaver, M3 - December 2018  
 
-**Interns**: Rebecca Engels, January 2018 Wards; Mangala Patil, January 2018 Wards; Rebecca Neustein, April 2018 Wards; Kate Measom, April 2018 Wards; Kevin Luk, August 2018 Wards; Eric Yao, August 2018 Wards; Ross Bittman, November 2018 Bite-sized Teaching Mode Conference Coach; Samuel Huxley, December 2018 Wards; Ross Bittman, December 2018 Wards 
-
+**Interns**:   
+Rebecca Engels - January 2018  
+Mangala Patil - January 2018  
+Rebecca Neustein - April 2018  
+Kate Measom - April 2018  
+Kevin Luk - August 2018  
+Eric Yao - August 2018  
+Ross Bittman - November 2018 (Bite-sized Teaching Mode Conference Coach)  
+Samuel Huxley - December 2018  
+Ross Bittman - December 2018  
 
 ## Professional Memberships
 
@@ -327,7 +342,9 @@ Chicago, Illinois
 ## Research
 
 ### Manuscripts  
-  
+
+### Works in progress
+
 Mrdutt, M, **Shah, AS**, Sanders, Mallett, L, Perger, LP. “Long-Term Outcomes of Newborns with Necrotizing Enterocolitis: a retrospective matched cohort study”. Canadian Association of Pediatric Surgery Edition of the Journal of Pediatric Surgery, May 2017 [accepted]  
   
 **Shah, AS**, Lampert R, Goldberg, J, Bremner, JD, Vaccarino, V, Shah, AJ. “Circadian Autonomic Inflexibility: a Marker of Ischemic Heart Disease”. [pending]
@@ -340,7 +357,7 @@ Mrdutt, M, **Shah, AS**, Sanders, Mallett, L, Perger, LP. “Long-Term Outcomes 
 
 Shah, AJ, **Shah, AS**, Park, J, Mehta, PK, Quyyumi, AA, Vaccarino, V, Marvar, P. "Brain-Heart Interactions in Stress and Anxiety Related Disorders: Implications for Increased Cardiovascular Disease Risk". Hypertension. [invited review article]
   
-### Abstracts  
+### Published abstracts  
 
 `2014`
 **Shah, AS**, Blackman, S. “Genetic Linkage Analysis for Cystic Fibrosis Related Diabetes”. National Institute of Diabetes and Digestive and Kidney Diseases Medical Student Research Symposium at Vanderbilt University, Nashville, Tennessee. 
@@ -353,3 +370,7 @@ Mrdutt, M, **Shah, AS**, Sanders, Mallett, L, Perger, LP. “Long-Term Outcomes 
   
 `2018`
 **Shah, AS**, Lampert R, Goldberg, J, Bremner, JD, Vaccarino, V, Shah, AJ. “Circadian Autonomic Inflexibility: a Marker of Ischemic Heart Disease”. Circulation. 
+
+## References
+
+Furnished upon request.
