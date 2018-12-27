@@ -107,12 +107,12 @@ li ul {
 
 h1,h2,h3,h4 {
 	font-weight: 400;
-	font-family: Cousine,Verdana,sans-serif;
+	font-family: Avenir,Verdana,sans-serif;
 	width: 65%;
 }
 
 h1 {
-	color: #fd9544;
+	color: #763626;
 	text-align: left;
 	font-size: 3em;
 	line-height: 1em;
@@ -126,7 +126,7 @@ h1 {
 
 h1+p {
 	/*subtitle*/
-	color: #1D49A0;
+	color: #336B87;
 	font-style: italic;
 	font-size: 110%;
 	line-height: 2em;
@@ -137,7 +137,7 @@ h1+p {
 h2 {
 	font-size: 1.1em;
 	/* color: #a00; */
-	color: #1D49A0;
+	color: #1336B87;
 	margin-top: 2em;
 	position: relative;
 	top: 1.4em;
