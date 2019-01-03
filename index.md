@@ -7,9 +7,9 @@ title: Curriculum Vitae
 <div id="webaddress">
 <a href="mailto:asshah4@emory.edu">asshah4@emory.edu</a>
 |
-<i class="fa fa-github"></i> <a href="http://github.com/asshah4">asshah4</a>
+<i class="fa fa-github"></i> <a href="http://asshah4.github.io">asshah4</a>
 |
-<i class="fa fa-twitter"></i> <a href="http://twitter.com/shah_in_boots">Anish Shah</a>
+<i class="fa fa-twitter"></i> <a href="http://twitter.com/shah_in_boots">Twitter</a>
 </div>
 
 Resident physician in internal medicine, with an interest in heart rate variability, epidemiology, biostatistics, and point-of-care ultrasonography.
@@ -197,7 +197,7 @@ Speaker to His Holiness the XIV Dalai Lama
 `2015`  
 Texas A&M University College of Medicine Research Symposium, 1st Place Oral Presentation  
 `2017`  
-Doctor's Dilemma Team, Georgia ACP Conference
+Doctor's Dilemma Team, Georgia ACP Conference  
 `2018`  
 American Heart Association Scientific Sessions - Top Donors Meeting  
 
