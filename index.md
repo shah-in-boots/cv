@@ -384,14 +384,22 @@ Furnished upon request.
 
 ### Clinical
 
-Mikhail Akbashev, MD
-Course Director and Clinical Lead - Point of Care Ultrasound
-Assistant Professor
-Emory University School of Medicine
-makbash@emory.edu
+Anna Kho, MD  
+Associate Professor  
+Emory University School of Medicine  
+apham@emory.edu  
 
-Lorenzo Difrancesco, MD
-Associate Vice Chair of Education
-Professor of Medicine
-Emory University School of Medicine
-ldifran@emory.edu
+### Ultrasonography
+
+Mikhail Akbashev, MD  
+Course Director and Clinical Lead - Point of Care Ultrasound  
+Assistant Professor  
+Emory University School of Medicine  
+makbash@emory.edu  
+
+Lorenzo Difrancesco, MD  
+Associate Vice Chair of Education  
+Professor of Medicine  
+Emory University School of Medicine  
+ldifran@emory.edu  
+
