@@ -50,17 +50,17 @@ United States of America
 
 ###	Education
 
-`2007-2011`  
+`2007-2011` 
 Emory University College of Arts and Sciences, Atlanta, Georgia  
 *Bachelor of Science in Linguistics and Neurosciences & Behavioral Biology*  
 
-`2012-2016`  
+`2012-2016` 
 Texas A&M University College of Medicine, College Station, Texas  
 *Doctor of Medicine*  
 
 ###	Postgraduate training
 
-`2016-2019`  
+`2016-2019` 
 Emory University School of Medicine, Atlanta, Georgia  
 *J. Willis Hurst Internal Medicine Residency*  
 Distinction in Teaching and Leadership  
@@ -75,57 +75,57 @@ USMLE Step 3 (243)
 
 ### Undergraduate
 
-`2010`  
+`2010` 
 Emory University College of Arts and Sciences  
 Department of Biology  
 *Teaching Assistant in Cellular Biology*
 
-`2011-2012`  
+`2011-2012` 
 North Lake College  
 Department of Physics  
 *Tutor in Biology, Chemistry, and Physics*
 
 ###	Medical Student
 
-`2013`  
+`2013` 
 Texas A&M University College of Medicine  
 *Histology Tutor*  
 
-`2016`  
+`2016` 
 Texas A&M University College of Medicine  
 Internship Bootcamp  
 *Session Leader*  
 
-`2018`  
+`2018` 
 Emory University School of Medicine  
 *M3 Ultrasound Workshop Leader*  
 
-`2017-2019`  
+`2017-2019` 
 Emory University School of Medicine  
 J. Willis Hurst Internal Medicine Residency Program  
 *Senior Resident*  
 
 ###	Medical resident
 
-`2018`  
+`2018` 
 Emory University School of Medicine  
 J. Willis Hurst Internal Medicine Residency Program  
 *Lotions and Ointments and Creams, Oh My!*  
 Bite-Sized Teaching Mode Conference  
   
-`2018`  
+`2018` 
 Emory University School of Medicine  
 J. Willis Hurst Internal Medicine Residency Program  
 *The Problem Learner: A history and physical for learners with difficulties*  
 Lecture for Distinction in Teaching and Leadership Conference  
   
-`2018`  
+`2018` 
 Emory University School of Medicine  
 J. Willis Hurst Internal Medicine Residency Program  
 *Intervention of Ischemic Stroke: Thrombectomy in 6 to 16 Hours with Selection by Perfusion Imaging*  
 Journal Club Conference  
 
-`2018`  
+`2018` 
 Emory University School of Medicine  
 J. Willis Hurst Internal Medicine Residency Program  
 *Ironing Out Transfusions in Sickle Cell*  
@@ -133,24 +133,24 @@ Bite-Sized Teaching Mode Conference
 
 ###	Faculty 
 
-`2017`  
+`2017` 
 Emory University School of Medicine  
 Department of Medicine  
 *Parasternal Long Axis View*  
 Lecture for Faculty Development Conference  
   
-`2018`  
+`2018` 
 Southern Hospital Medicine Conference  
 *Ultrasound Workshop: Cardiac, IVC, Lung, Abdominal Views*  
   
-`2018`  
+`2018` 
 Southern Hospital Medicine Conference  
 *"8 Minutes-to-Win-It": Top Inpatient Teaching Sessions by Soon-To-Be-Leaders*  
   
 
 ### Other 
 
-`2017-2019`  
+`2017-2019` 
 Emory University School of Medicine  
 Physician Assistant Program  
 Didactic Experiential Learning Program  
@@ -180,33 +180,50 @@ Ross Bittman - December 2018
 
 ## Professional Memberships
 
-`2012-2016`  
+`2012-2016` 
 Texas Medical Association  
-`2012-`  
+`2012-` 
 American Medical Association  
-`2012-`  
+`2012-` 
 American College of Physicians  
-`2018-`  
+`2018-` 
 American Heart Association  
 
 ## Honors and Awards
 
-`2007`  
+`2007` 
 EMT-Basic National Competition, 1st Place, HOSA  
-`2009`  
+`2009` 
 Delores B. Aldridge Excellence in Service to a Diverse Community Award  
-`2009–2011`  
+`2009–2011` 
 Nu Rho Psi Honor Society  
-`2009`  
+`2009` 
 Speaker to His Holiness the XIV Dalai Lama  
-`2015`  
+`2015` 
 Texas A&M University College of Medicine Research Symposium, 1st Place Oral Presentation  
-`2017`  
+`2017` 
 Doctor's Dilemma Team, Georgia ACP Conference  
-`2018`  
+`2018` 
 American Heart Association Scientific Sessions - Top Donors Meeting  
 
 ## Skills
+
+### Procedural and clinical skills
+
+**Point-of-care ultrasonography**:  
+Cardiac (parasternal long, parasternal short, subxiphoid, apical)  
+Inferior vena cava  
+Peritoneal space (liver and spleen)  
+Kidneys and bladder  
+Deep veins  
+Ocular and optic nerve  
+Skin and soft tissue  
+
+**Procedures**:   
+Arterial line placement (radial, brachial, dorsalis pedis) - 30  
+Arthrocentesis (knee, ankle, shoulder) - 17  
+Central line placement (internal jugular, femoral, subclavian) - 56  
+Lumbar puncture (22)  
 
 ###	Languages spoken
   
@@ -225,64 +242,64 @@ Markdown
 
 ### Certifications
 
-`2007-2010`  
+`2007-2010` 
 EMT-B  
-`2012—2016`  
+`2012—2016` 
 ATLS  
-`2012—`  
+`2012—` 
 ACLS  
-`2015—`   
+`2015—`  
 PADI Open Water Diver  
-`2016—`   
+`2016—`  
 Wilderness First Responder  
-`2017—`  
+`2017—` 
 ASA 101 Basic Keelboat  
 
 ## Conferences
 
 ###	Institutional  
   
-`2009`  
+`2009` 
 *Cortisol Levels in Rhesus Monkeys with Maternal Separation Over Longitudinal Cohorts*  
 **Anish Shah**, Mar Sanchez PhD  
 Poster Presentation  
 Scholarly Inquiry and Research at Emory Research Partners Symposium  
 Atlanta, Georgia  
   
-`2016`  
+`2016` 
 *Long-Term Outcomes of Newborns with Necrotizing Enterocolitis: a retrospective matched cohort study*  
 **Anish Shah**, Emily Sanders*, Mary Mrdutt MD, Lena Perger MD  
 Texas A&M University College of Medicine Research Symposium, 1st Place  
 Temple, Texas  
   
-`2016`  
+`2016` 
 *Long-Term Outcomes of Newborns with Necrotizing Enterocolitis: a retrospective matched cohort study*  
 **Anish Shah**, Emily Sanders, Mary Mrdutt MD, Lena Perger MD  
 Scott & White Healthcare Academic Operations Research Day  
 Temple, Texas  
   
-`2018`  
+`2018` 
 *Association of Ischemia with Heart Rate Variability*  
 **Anish Shah MD**, Amit Shah MD MSCR  
 Poster Presentation  
 Emory Internal Medicine Resident Research Day  
 Atlanta, Georgia  
   
-`2018`  
+`2018` 
 *The Largest IVC: the examination of torrential tricuspid regurgitation in the setting of peripartum cardiomyopathy*  
 Birju Rao MD*, **Anish Shah MD**, Stephen D. Clements MD  
 Poster Presentation  
 Mr. William E. Booth and Dr. James Zaidan Grady Resident Research Day  
 Atlanta, Georgia  
   
-`2018`  
+`2018` 
 *More than Mono: Epstein Barr virus mimicking malignancy*  
 Gabriel Aleixo*, **Anish Shah MD**, Fuad El Rassi MD  
 Poster Presentation  
 Mr. William E. Booth and Dr. James Zaidan Grady Resident Research Day  
 Atlanta, Georgia  
   
-`2018`  
+`2018` 
 *Association of Ischemia with Heart Rate Variability*  
 **Anish Shah MD**, Amit Shah MD MSCR  
 Poster Presentation  
@@ -291,21 +308,21 @@ Atlanta, Georgia
   
 ### Regional  
   
-`2011`  
+`2011` 
 *Influence of the Acoustic Parameter of Pitch on Emotion and Focus Location in Statements using Ditransitive Verb Manipulations*  
 **Anish Shah**, Yu Li PhD  
 Poster Presentation  
 Great Lakes Expo for Experimental and Formal Undergraduate Linguistics, Michigan State University, East Lansing, Michigan  
   
 
-`2015`  
+`2015` 
 *Illuminating the Case of a Rare GI Bleed*  
 **Anish Shah**, Austin Metting MD  
 Poster Presentation  
 American College of Physicians Texas Chapter Conference  
   
 
-`2017`  
+`2017` 
 *Three’s company: nocardiosis, neuroendocrine hyperplasia, and breast cancer*  
 **Anish Shah MD**, Stephen D. Clements MD, Matthew Dudgeon MD PhD  
 Poster Presentation  
@@ -313,7 +330,7 @@ American College of Physicians Georgia Chapter Conference
 Savannah, Georgia  
   
 
-`2017`  
+`2017` 
 *Three’s company: nocardiosis, neuroendocrine hyperplasia, and breast cancer*  
 **Anish Shah MD**, Stephen D. Clements MD, Matthew Dudgeon MD PhD  
 Poster Presentation  
@@ -323,21 +340,21 @@ New Orleans, Louisiana
 
 ### National  
   
-`2014`  
+`2014` 
 *Genetic Linkage Analysis for Cystic Fibrosis Related Diabetes*  
 **Anish Shah**, Scott Blackman MD PhD  
 Poster Presentation  
 NIDDK Medical Student Research Symposium at Vanderbilt University  
 Vanderbilt University, Nashville, Tennessee  
   
-`2017`  
+`2017` 
 *Long-Term Outcomes of Newborns with Necrotizing Enterocolitis: a retrospective matched cohort study*  
 **Anish Shah**, Emily Sanders, Mary Mrdutt MD*, Lena Perger MD  
 Oral Presentation  
 Annual Meeting of the Canadian Association of Pediatric Surgery  
 Vancouver, Canada  
   
-`2018`  
+`2018` 
 *Circadian Autonomic Inflexibility: a Marker of Ischemic Heart Disease*  
 **Anish Shah MD***, Rachel Lampert MD, Jack Goldberg PhD, J. Douglas Bremner MD, Lian Li PhD, Marc Thames MD, Viola Vaccarino MD PhD, Amit Shah MD MSCR  
 Poster Presentation  
@@ -362,18 +379,19 @@ Mrdutt, M, **Shah, AS**, Sanders, Mallett, L, Perger, LP. “Long-Term Outcomes 
 
 **Shah, AS**, Park, J, Mehta, PK, Shah, AJ, Quyyumi, AA, Vaccarino, V, Marvar, P. "Brain-Heart Interactions in Stress and Anxiety Related Disorders: Implications for Increased Cardiovascular Disease Risk". Hypertension. [invited review article]
   
+
 ### Published abstracts  
 
-`2014`  
+`2014` 
 **Shah, AS**, Blackman, S. “Genetic Linkage Analysis for Cystic Fibrosis Related Diabetes”. National Institute of Diabetes and Digestive and Kidney Diseases Medical Student Research Symposium at Vanderbilt University, Nashville, Tennessee. 
   
-`2017`  
+`2017` 
 Mrdutt, M, **Shah, AS**, Sanders, Mallett, L, Perger, LP. “Long-Term Outcomes of Newborns with Necrotizing Enterocolitis: a retrospective matched cohort study”. Annual Meeting of the Canadian Association of Pediatric Surgery Conference.  
   
-`2017`  
+`2017` 
 **Shah, AS**, Clements, SD, Dudgeon, M. “Three’s company: nocardiosis, neuroendocrine hyperplasia, and breast cancer”. Southern Hospital Medicine Conference, New Orleans, Louisiana.  
   
-`2018`  
+`2018` 
 **Shah, AS**, Lampert R, Goldberg, J, Bremner, JD, Vaccarino, V, Shah, AJ. “Circadian Autonomic Inflexibility: a Marker of Ischemic Heart Disease”. Circulation. 
 
 ## References
