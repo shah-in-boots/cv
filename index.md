@@ -89,11 +89,16 @@ Department of Physics
 
 `2013`  
 Texas A&M University College of Medicine  
-*Histology Tutor*
+*Histology Tutor*  
+
+`2016`  
+Texas A&M University College of Medicine  
+Internship Bootcamp  
+*Session Leader*  
 
 `2018`  
 Emory University School of Medicine  
-*M3 Ultrasound Workshop Leader*
+*M3 Ultrasound Workshop Leader*  
 
 `2017-2019`  
 Emory University School of Medicine  
