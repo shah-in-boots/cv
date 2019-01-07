@@ -352,7 +352,7 @@ Chicago, Illinois
 
 Mrdutt, M, **Shah, AS**, Sanders, Mallett, L, Perger, LP. “Long-Term Outcomes of Newborns with Necrotizing Enterocolitis: a retrospective matched cohort study”. Canadian Association of Pediatric Surgery Edition of the Journal of Pediatric Surgery, May 2017 [accepted]  
   
-**Shah, AS**, Lampert R, Goldberg, J, Bremner, JD, Vaccarino, V, Shah, AJ. “Circadian Autonomic Inflexibility: a Marker of Ischemic Heart Disease”. [pending]
+**Shah, AS**, Lampert R, Goldberg, J, Bremner, JD, Vaccarino, V, Shah, AJ. “"Circadian Changes in Heart Rate Variability Predict Abnormal Myocardial Perfusion". [submitted]
   
 **Shah, AS**, Alvaro, A, Whitsel, E, Vaccarino, V, Shah, AJ. “Heart Rate Variability and Psychosocial States: an Atherosclerosis Risk In Communities study”. Atherosclerosis Risk In Communities Publications Committee, October 2017. [proposal accepted]  
 
@@ -360,7 +360,7 @@ Mrdutt, M, **Shah, AS**, Sanders, Mallett, L, Perger, LP. “Long-Term Outcomes 
 
 **Shah, AS**, Evans, M, Akbashev, M. "Point-Of-Care Ultrasonography Utility in Resident Learning and Clinical Decision Making". Institutional Review Board, Emory University, Atlanta, Georgia, March, 2018. [IRB approval granted]
 
-Shah, AJ, **Shah, AS**, Park, J, Mehta, PK, Quyyumi, AA, Vaccarino, V, Marvar, P. "Brain-Heart Interactions in Stress and Anxiety Related Disorders: Implications for Increased Cardiovascular Disease Risk". Hypertension. [invited review article]
+**Shah, AS**, Park, J, Mehta, PK, Shah, AJ, Quyyumi, AA, Vaccarino, V, Marvar, P. "Brain-Heart Interactions in Stress and Anxiety Related Disorders: Implications for Increased Cardiovascular Disease Risk". Hypertension. [invited review article]
   
 ### Published abstracts  
 
@@ -384,4 +384,14 @@ Furnished upon request.
 
 ### Clinical
 
-Furnished upon request.
+Mikhail Akbashev, MD
+Course Director and Clinical Lead - Point of Care Ultrasound
+Assistant Professor
+Emory University School of Medicine
+makbash@emory.edu
+
+Lorenzo Difrancesco, MD
+Associate Vice Chair of Education
+Professor of Medicine
+Emory University School of Medicine
+ldifran@emory.edu
