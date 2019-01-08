@@ -404,9 +404,14 @@ Furnished upon request.
 ### Clinical
 
 Anna Kho, MD  
-Associate Professor  
+Associate Professor of Medicine  
+Division of General Medicine and Geriatrics  
 Emory University School of Medicine  
-apham@emory.edu  
+49 Jesse Hill Jr. Dr. S.E.  
+Atlanta, GA 30303  
+Email: apham@emory.edu  
+Office: 404-778-1626  
+Fax: 404-778-1601  
 
 ### Ultrasonography
 
@@ -414,11 +419,10 @@ Mikhail Akbashev, MD
 Course Director and Clinical Lead - Point of Care Ultrasound  
 Assistant Professor  
 Emory University School of Medicine  
-makbash@emory.edu  
+Email: makbash@emory.edu  
 
-Lorenzo Difrancesco, MD  
-Associate Vice Chair of Education  
-Professor of Medicine  
+Shirine Allam  
+Assistant Professor of Medicine  
+Associate Program Director - Pulmonary, Allergy, Critical Care Fellowship  
 Emory University School of Medicine  
-ldifran@emory.edu  
-
+Email: shirine.allam@emory.edu  
