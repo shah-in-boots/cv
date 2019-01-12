@@ -203,23 +203,16 @@ Speaker to His Holiness the XIV Dalai Lama
 `2015` 
 Texas A&M University College of Medicine Research Symposium, 1st Place Oral Presentation  
 `2017` 
-Doctor’s Dilemma (Medical Jeopardy), Emory’s Resident Team, Georgia ACP Conference
+Doctor’s Dilemma (Medical Jeopardy), Emory’s Resident Team, Georgia ACP Conference  
 `2018` 
 American Heart Association Scientific Sessions - Top Donors Meeting presentation  
-- Special invitation to discuss research to AHA leadership and philanthropists
+	*Special invitation to discuss research to AHA leadership and philanthropists.*
 
 ## Skills
 
 ### Procedural and clinical skills
 
-**Point-of-care ultrasonography***:  
-Cardiac - identification of parasternal long, parasternal short, apical, and subxiphoid views; assessment of global LV ejection fraction; identification of pericardial effusions
-Inferior vena cava - identification of IVC in transverse and sagittal views; assessment of fluid status
-Peritoneal space (liver and spleen) - identification of gallbladder and gallstones; identification of free fluid; measurement of spleen
-Kidneys and bladder - identification of hydronephrosis
-Ocular and optic nerve - identification of optic sheath; measurement of optic nerve diameter
-Skin and soft tissue - identification of superficial edema
-*Training included 1 month of formal ultrasound curriculum training and 2 months of emergency medicine ultrasound during medical school. Further experience during residency months in the ICU, wards, and cardiology rotations.
+**Point-of-care ultrasonography**: Training included 1 month of ultrasound curriculum and 2 months of emergency medicine ultrasound during medical school, including wilderness medicine training. Further training in residency during ICU, wards, and cardiology rotations. Skills include obtain cardiac views, assessing global cardiac function, identifying pleural disease, IVC assessment, identifying hydronephrosis, and skin/soft tissue evaluation.  
 
 **Procedures**:   
 Arterial line placement (radial, brachial, dorsalis pedis) - 30  
