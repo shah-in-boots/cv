@@ -73,9 +73,9 @@ USMLE Step 3 (243)
 
 ## Teaching
 
-### Local
+### **LOCAL**
 
-#### Undergraduate
+### Undergraduate
 
 `2010` 
 Emory University College of Arts and Sciences  
@@ -87,7 +87,7 @@ North Lake College
 Department of Physics  
 *Tutor in Biology, Chemistry, and Physics*
 
-####	Medical student
+### Medical student
 
 `2013` 
 Texas A&M University College of Medicine  
@@ -109,7 +109,7 @@ Emory University School of Medicine
 *M3 Ultrasound Workshop Leader*  
 
 
-####	Medical resident
+###	Medical resident
 
 `2018` 
 Emory University School of Medicine  
@@ -135,7 +135,7 @@ J. Willis Hurst Internal Medicine Residency Program
 *Ironing Out Transfusions in Sickle Cell*  
 Bite-Sized Teaching Mode Conference  
 
-#### Faculty 
+### Faculty 
 
 `2017` 
 Emory University School of Medicine  
@@ -144,9 +144,9 @@ Department of Medicine
 Lecture for Faculty Development Conference  
   
 
-### Regional
+### **REGIONAL**
 
-#### Faculty
+### Faculty
 
 `2018` 
 Southern Hospital Medicine Conference  
