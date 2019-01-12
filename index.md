@@ -73,7 +73,9 @@ USMLE Step 3 (243)
 
 ## Teaching
 
-### Undergraduate
+### Local
+
+#### Undergraduate
 
 `2010` 
 Emory University College of Arts and Sciences  
@@ -85,7 +87,7 @@ North Lake College
 Department of Physics  
 *Tutor in Biology, Chemistry, and Physics*
 
-###	Medical Student
+####	Medical student
 
 `2013` 
 Texas A&M University College of Medicine  
@@ -96,16 +98,18 @@ Texas A&M University College of Medicine
 Internship Bootcamp  
 *Session Leader*  
 
+`2017-2019` 
+Emory University School of Medicine  
+Physician Assistant Program  
+Didactic Experiential Learning Program  
+*Faculty Preceptor*
+
 `2018` 
 Emory University School of Medicine  
 *M3 Ultrasound Workshop Leader*  
 
-`2017-2019` 
-Emory University School of Medicine  
-J. Willis Hurst Internal Medicine Residency Program  
-*Senior Resident*  
 
-###	Medical resident
+####	Medical resident
 
 `2018` 
 Emory University School of Medicine  
@@ -131,7 +135,7 @@ J. Willis Hurst Internal Medicine Residency Program
 *Ironing Out Transfusions in Sickle Cell*  
 Bite-Sized Teaching Mode Conference  
 
-###	Faculty 
+#### Faculty 
 
 `2017` 
 Emory University School of Medicine  
@@ -139,6 +143,11 @@ Department of Medicine
 *Parasternal Long Axis View*  
 Lecture for Faculty Development Conference  
   
+
+### Regional
+
+#### Faculty
+
 `2018` 
 Southern Hospital Medicine Conference  
 *Ultrasound Workshop: Cardiac, IVC, Lung, Abdominal Views*  
@@ -147,14 +156,6 @@ Southern Hospital Medicine Conference
 Southern Hospital Medicine Conference  
 *"8 Minutes-to-Win-It": Top Inpatient Teaching Sessions by Soon-To-Be-Leaders*  
   
-
-### Other 
-
-`2017-2019` 
-Emory University School of Medicine  
-Physician Assistant Program  
-Didactic Experiential Learning Program  
-*Faculty Preceptor*
 
 ### Supervisory Roles
 
@@ -202,28 +203,31 @@ Speaker to His Holiness the XIV Dalai Lama
 `2015` 
 Texas A&M University College of Medicine Research Symposium, 1st Place Oral Presentation  
 `2017` 
-Doctor's Dilemma Team, Georgia ACP Conference  
+Doctor’s Dilemma (Medical Jeopardy), Emory’s Resident Team, Georgia ACP Conference
 `2018` 
-American Heart Association Scientific Sessions - Top Donors Meeting  
+American Heart Association Scientific Sessions - Top Donors Meeting presentation  
+- Special invitation to discuss research to AHA leadership and philanthropists
 
 ## Skills
 
 ### Procedural and clinical skills
 
-**Point-of-care ultrasonography**:  
-Cardiac (parasternal long, parasternal short, subxiphoid, apical)  
-Inferior vena cava  
-Peritoneal space (liver and spleen)  
-Kidneys and bladder  
-Deep veins  
-Ocular and optic nerve  
-Skin and soft tissue  
+**Point-of-care ultrasonography***:  
+Cardiac - identification of parasternal long, parasternal short, apical, and subxiphoid views; assessment of global LV ejection fraction; identification of pericardial effusions
+Inferior vena cava - identification of IVC in transverse and sagittal views; assessment of fluid status
+Peritoneal space (liver and spleen) - identification of gallbladder and gallstones; identification of free fluid; measurement of spleen
+Kidneys and bladder - identification of hydronephrosis
+Ocular and optic nerve - identification of optic sheath; measurement of optic nerve diameter
+Skin and soft tissue - identification of superficial edema
+*Training included 1 month of formal ultrasound curriculum training and 2 months of emergency medicine ultrasound during medical school. Further experience during residency months in the ICU, wards, and cardiology rotations.
 
 **Procedures**:   
 Arterial line placement (radial, brachial, dorsalis pedis) - 30  
 Arthrocentesis (knee, ankle, shoulder) - 17  
 Central line placement (internal jugular, femoral, subclavian) - 56  
-Lumbar puncture (22)  
+Lumbar puncture - 22  
+Thoracentesis - 14  
+Paracentesis - 17  
 
 ###	Languages spoken
   
@@ -233,13 +237,13 @@ Spanish
 
 ### Technical skills
 
-R  
-RStudio  
-PERL  
-C++  
-Vim  
-Markdown  
-Github  
+**Computer programming:**
+R, RStudio - scripting language and environment for statistical computing and graphics
+PERL - high-level programming language for text processing and manipulation
+C++ - low-level programming language for data processing
+Vim - command line editing
+Markdown - syntax for formatting of writing
+Git, Github - version control system 
 
 ### Certifications
 
@@ -399,7 +403,12 @@ Mrdutt, M, **Shah, AS**, Sanders, Mallett, L, Perger, LP. “Long-Term Outcomes 
 
 ### Academic
 
-Furnished upon request.
+Amit Shah, MD, MSCR  
+Assistant Professor of Epidemiology Assistant Professor of Medicine (Cardiology)  
+1518 Clifton Rd. NE, Rm 3053  
+Atlanta, GA 30322 
+ajshah3@emory.edu  
+Phone – 404-727-8712  
 
 ### Clinical
 
