@@ -206,7 +206,7 @@ Texas A&M University College of Medicine Research Symposium, 1st Place Oral Pres
 Doctor’s Dilemma (Medical Jeopardy), Emory’s Resident Team, Georgia ACP Conference  
 `2018` 
 American Heart Association Scientific Sessions - Top Donors Meeting presentation  
-	*Special invitation to discuss research to AHA leadership and philanthropists.*
+- *Special invitation to discuss research to AHA leadership and philanthropists.*
 
 ## Skills
 
