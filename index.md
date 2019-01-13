@@ -31,14 +31,11 @@ Atlanta, GA 30307
 Suite 491  
 Atlanta, Georgia 30303  
 
-*Home* ...
-
-
 ### Contact
 
 *E-mail* asshah4@emory.edu
 
-*Phone* ...
+*Phone* 469-835-7606
 
 *Fax* 226-589-5000
 
@@ -212,7 +209,8 @@ American Heart Association Scientific Sessions - Top Donors Meeting presentation
 
 ### Procedural and clinical skills
 
-**Point-of-care ultrasonography**: Training included 1 month of ultrasound curriculum and 2 months of emergency medicine ultrasound during medical school, including wilderness medicine training. Further training in residency during ICU, wards, and cardiology rotations. Skills include obtain cardiac views, assessing global cardiac function, identifying pleural disease, IVC assessment, identifying hydronephrosis, and skin/soft tissue evaluation.  
+**Point-of-care ultrasonography**:  
+Training included 1 month of ultrasound curriculum and 2 months of emergency medicine ultrasound during medical school, including wilderness medicine training. Further training in residency during ICU, wards, and cardiology rotations. Skills include obtain cardiac views, assessing global cardiac function, identifying pleural disease, IVC assessment, identifying hydronephrosis, and skin/soft tissue evaluation.  
 
 **Procedures**:   
 Arterial line placement (radial, brachial, dorsalis pedis) - 30  
@@ -230,13 +228,13 @@ Spanish
 
 ### Technical skills
 
-**Computer programming:**
-R, RStudio - scripting language and environment for statistical computing and graphics
-PERL - high-level programming language for text processing and manipulation
-C++ - low-level programming language for data processing
-Vim - command line editing
-Markdown - syntax for formatting of writing
-Git, Github - version control system 
+**Computer programming:**  
+R, RStudio - scripting language and environment for statistical computing and graphics  
+PERL - high-level programming language for text processing and manipulation  
+C++ - low-level programming language for data processing  
+Vim - command line editing  
+Markdown - syntax for formatting of writing  
+Git, Github - version control system  
 
 ### Certifications
 

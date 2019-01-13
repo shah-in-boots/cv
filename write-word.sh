@@ -1,3 +1,6 @@
+# Remove existing word CV file if needed
+rm word.docx 
+
 # Make safe copy of index file for edits
 cp index.md word.md
 
