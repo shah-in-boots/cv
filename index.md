@@ -180,11 +180,11 @@ Ross Bittman - December 2018
 
 `2012-2016` 
 Texas Medical Association  
-`2012-` 
+`2012-present`
 American Medical Association  
-`2012-` 
+`2012-present` 
 American College of Physicians  
-`2018-` 
+`2018-present` 
 American Heart Association  
 
 ## Honors and Awards
@@ -242,13 +242,13 @@ Git, Github - version control system
 EMT-B  
 `2012—2016` 
 ATLS  
-`2012—` 
+`2012—present` 
 ACLS  
-`2015—` 
+`2015—present` 
 PADI Open Water Diver  
-`2016—` 
+`2016—present` 
 Wilderness First Responder  
-`2017—` 
+`2017—present` 
 ASA 101 Basic Keelboat  
 
 ## Conferences
