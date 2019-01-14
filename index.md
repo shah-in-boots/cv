@@ -180,7 +180,7 @@ Ross Bittman - December 2018
 
 `2012-2016` 
 Texas Medical Association  
-`2012-present`
+`2012-present` 
 American Medical Association  
 `2012-present` 
 American College of Physicians  
