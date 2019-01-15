@@ -398,7 +398,7 @@ Amit Shah, MD, MSCR
 Assistant Professor of Epidemiology Assistant Professor of Medicine (Cardiology)  
 1518 Clifton Rd. NE, Rm 3053  
 Atlanta, GA 30322 
-ajshah3@emory.edu  
+Email: ajshah3@emory.edu  
 Phone – 404-727-8712  
 
 ### Clinical
@@ -412,6 +412,12 @@ Atlanta, GA 30303
 Email: apham@emory.edu  
 Office: 404-778-1626  
 Fax: 404-778-1601  
+
+Ananth Vadde, MD
+Instructor of Medicine
+Division of Hospital Medicine
+Emory University School of Medicine
+Email: ananth.vadde@emory.edu
 
 ### Ultrasonography
 
