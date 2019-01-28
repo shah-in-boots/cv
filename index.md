@@ -12,7 +12,7 @@ title: Curriculum Vitae
 <i class="fa fa-twitter"></i> <a href="http://twitter.com/shah_in_boots">Twitter</a>
 </div>
 
-Resident physician in internal medicine, with an interest in heart rate variability, epidemiology, biostatistics, and point-of-care ultrasonography.
+Resident physician in internal medicine with an interest in heart rate variability, epidemiology, biostatistics, and point-of-care ultrasonography.
 
 ## Personal information
 
@@ -70,7 +70,7 @@ USMLE Step 3 (243)
 
 ## Teaching
 
-### **LOCAL**
+### __LOCAL__
 
 ### Undergraduate
 
@@ -105,6 +105,9 @@ Didactic Experiential Learning Program
 Emory University School of Medicine  
 *M3 Ultrasound Workshop Leader*  
 
+`2018` 
+Emory University School of Medicine  
+*M3 Ultrasound Workshop Leader*  
 
 ###	Medical resident
 
@@ -141,7 +144,7 @@ Department of Medicine
 Lecture for Faculty Development Conference  
   
 
-### **REGIONAL**
+### __REGIONAL__
 
 ### Faculty
 
@@ -156,7 +159,7 @@ Southern Hospital Medicine Conference
 
 ### Supervisory Roles
 
-**Students**:   
+__Students__:   
 Julie Sommer, PA-S - April 2017 to August 2018  
 John Ward, M3 - January 2018  
 Deema Elchoufi, M3 - April 2018  
@@ -165,7 +168,7 @@ Brian Mott, M3 - August 2018
 Anna Coronata, M3 - December 2018  
 Eli Mlaver, M3 - December 2018  
 
-**Interns**:   
+__Interns__:   
 Rebecca Engels - January 2018  
 Mangala Patil - January 2018  
 Rebecca Neustein - April 2018  
@@ -209,10 +212,10 @@ American Heart Association Scientific Sessions - Top Donors Meeting presentation
 
 ### Procedural and clinical skills
 
-**Point-of-care ultrasonography**:  
+__Point-of-care ultrasonography__:  
 Training included 1 month of ultrasound curriculum and 2 months of emergency medicine ultrasound during medical school, including wilderness medicine training. Further training in residency during ICU, wards, and cardiology rotations. Skills include obtain cardiac views, assessing global cardiac function, identifying pleural disease, IVC assessment, identifying hydronephrosis, and skin/soft tissue evaluation.  
 
-**Procedures**:   
+__Procedures__:   
 Arterial line placement (radial, brachial, dorsalis pedis) - 30  
 Arthrocentesis (knee, ankle, shoulder) - 17  
 Central line placement (internal jugular, femoral, subclavian) - 56  
@@ -228,7 +231,7 @@ Spanish
 
 ### Technical skills
 
-**Computer programming:**  
+__Computer programming:__  
 R, RStudio - scripting language and environment for statistical computing and graphics  
 PERL - high-level programming language for text processing and manipulation  
 C++ - low-level programming language for data processing  
@@ -257,47 +260,47 @@ ASA 101 Basic Keelboat
   
 `2009` 
 *Cortisol Levels in Rhesus Monkeys with Maternal Separation Over Longitudinal Cohorts*  
-**Anish Shah**, Mar Sanchez PhD  
+__Anish Shah__, Mar Sanchez PhD  
 Poster Presentation  
 Scholarly Inquiry and Research at Emory Research Partners Symposium  
 Atlanta, Georgia  
   
 `2016` 
 *Long-Term Outcomes of Newborns with Necrotizing Enterocolitis: a retrospective matched cohort study*  
-**Anish Shah**, Emily Sanders*, Mary Mrdutt MD, Lena Perger MD  
+__Anish Shah__, Emily Sanders*, Mary Mrdutt MD, Lena Perger MD  
 Texas A&M University College of Medicine Research Symposium, 1st Place  
 Temple, Texas  
   
 `2016` 
 *Long-Term Outcomes of Newborns with Necrotizing Enterocolitis: a retrospective matched cohort study*  
-**Anish Shah**, Emily Sanders, Mary Mrdutt MD, Lena Perger MD  
+__Anish Shah__, Emily Sanders, Mary Mrdutt MD, Lena Perger MD  
 Scott & White Healthcare Academic Operations Research Day  
 Temple, Texas  
   
 `2018` 
 *Association of Ischemia with Heart Rate Variability*  
-**Anish Shah MD**, Amit Shah MD MSCR  
+__Anish Shah MD__, Amit Shah MD MSCR  
 Poster Presentation  
 Emory Internal Medicine Resident Research Day  
 Atlanta, Georgia  
   
 `2018` 
 *The Largest IVC: the examination of torrential tricuspid regurgitation in the setting of peripartum cardiomyopathy*  
-Birju Rao MD*, **Anish Shah MD**, Stephen D. Clements MD  
+Birju Rao MD*, __Anish Shah MD__, Stephen D. Clements MD  
 Poster Presentation  
 Mr. William E. Booth and Dr. James Zaidan Grady Resident Research Day  
 Atlanta, Georgia  
   
 `2018` 
 *More than Mono: Epstein Barr virus mimicking malignancy*  
-Gabriel Aleixo*, **Anish Shah MD**, Fuad El Rassi MD  
+Gabriel Aleixo*, __Anish Shah MD__, Fuad El Rassi MD  
 Poster Presentation  
 Mr. William E. Booth and Dr. James Zaidan Grady Resident Research Day  
 Atlanta, Georgia  
   
 `2018` 
 *Association of Ischemia with Heart Rate Variability*  
-**Anish Shah MD**, Amit Shah MD MSCR  
+__Anish Shah MD__, Amit Shah MD MSCR  
 Poster Presentation  
 Mr. William E. Booth and Dr. James Zaidan Grady Resident Research Day  
 Atlanta, Georgia  
@@ -306,21 +309,21 @@ Atlanta, Georgia
   
 `2011` 
 *Influence of the Acoustic Parameter of Pitch on Emotion and Focus Location in Statements using Ditransitive Verb Manipulations*  
-**Anish Shah**, Yu Li PhD  
+__Anish Shah__, Yu Li PhD  
 Poster Presentation  
 Great Lakes Expo for Experimental and Formal Undergraduate Linguistics, Michigan State University, East Lansing, Michigan  
   
 
 `2015` 
 *Illuminating the Case of a Rare GI Bleed*  
-**Anish Shah**, Austin Metting MD  
+__Anish Shah__, Austin Metting MD  
 Poster Presentation  
 American College of Physicians Texas Chapter Conference  
   
 
 `2017` 
 *Three’s company: nocardiosis, neuroendocrine hyperplasia, and breast cancer*  
-**Anish Shah MD**, Stephen D. Clements MD, Matthew Dudgeon MD PhD  
+__Anish Shah MD__, Stephen D. Clements MD, Matthew Dudgeon MD PhD  
 Poster Presentation  
 American College of Physicians Georgia Chapter Conference  
 Savannah, Georgia  
@@ -328,7 +331,7 @@ Savannah, Georgia
 
 `2017` 
 *Three’s company: nocardiosis, neuroendocrine hyperplasia, and breast cancer*  
-**Anish Shah MD**, Stephen D. Clements MD, Matthew Dudgeon MD PhD  
+__Anish Shah MD__, Stephen D. Clements MD, Matthew Dudgeon MD PhD  
 Poster Presentation  
 Southern Hospital Medicine Conference  
 New Orleans, Louisiana  
@@ -338,21 +341,21 @@ New Orleans, Louisiana
   
 `2014` 
 *Genetic Linkage Analysis for Cystic Fibrosis Related Diabetes*  
-**Anish Shah**, Scott Blackman MD PhD  
+__Anish Shah__, Scott Blackman MD PhD  
 Poster Presentation  
 NIDDK Medical Student Research Symposium at Vanderbilt University  
 Vanderbilt University, Nashville, Tennessee  
   
 `2017` 
 *Long-Term Outcomes of Newborns with Necrotizing Enterocolitis: a retrospective matched cohort study*  
-**Anish Shah**, Emily Sanders, Mary Mrdutt MD*, Lena Perger MD  
+__Anish Shah__, Emily Sanders, Mary Mrdutt MD*, Lena Perger MD  
 Oral Presentation  
 Annual Meeting of the Canadian Association of Pediatric Surgery  
 Vancouver, Canada  
   
 `2018` 
 *Circadian Autonomic Inflexibility: a Marker of Ischemic Heart Disease*  
-**Anish Shah MD***, Rachel Lampert MD, Jack Goldberg PhD, J. Douglas Bremner MD, Lian Li PhD, Marc Thames MD, Viola Vaccarino MD PhD, Amit Shah MD MSCR  
+__Anish Shah MD*__, Rachel Lampert MD, Jack Goldberg PhD, J. Douglas Bremner MD, Lian Li PhD, Marc Thames MD, Viola Vaccarino MD PhD, Amit Shah MD MSCR  
 Poster Presentation  
 American Heart Association Scientific Sessions  
 Chicago, Illinois  
@@ -361,34 +364,34 @@ Chicago, Illinois
 
 ### Manuscripts  
 
+__Shah, AS__, Lampert R, Goldberg, J, Bremner, JD, Vaccarino, V, Shah, AJ. “"Circadian Changes in Heart Rate Variability Predict Abnormal Myocardial Perfusion". [submitted]
+
 ### Works in progress
 
-Mrdutt, M, **Shah, AS**, Sanders, Mallett, L, Perger, LP. “Long-Term Outcomes of Newborns with Necrotizing Enterocolitis: a retrospective matched cohort study”. Canadian Association of Pediatric Surgery Edition of the Journal of Pediatric Surgery, May 2017 [accepted]  
+Mrdutt, M, __Shah, AS__, Sanders, Mallett, L, Perger, LP. “Long-Term Outcomes of Newborns with Necrotizing Enterocolitis: a retrospective matched cohort study”. Canadian Association of Pediatric Surgery Edition of the Journal of Pediatric Surgery, May 2017 [accepted]  
   
-**Shah, AS**, Lampert R, Goldberg, J, Bremner, JD, Vaccarino, V, Shah, AJ. “"Circadian Changes in Heart Rate Variability Predict Abnormal Myocardial Perfusion". [submitted]
-  
-**Shah, AS**, Alvaro, A, Whitsel, E, Vaccarino, V, Shah, AJ. “Heart Rate Variability and Psychosocial States: an Atherosclerosis Risk In Communities study”. Atherosclerosis Risk In Communities Publications Committee, October 2017. [proposal accepted]  
+__Shah, AS__, Alvaro, A, Whitsel, E, Vaccarino, V, Shah, AJ. “Heart Rate Variability and Psychosocial States: an Atherosclerosis Risk In Communities study”. Atherosclerosis Risk In Communities Publications Committee, October 2017. [proposal accepted]  
 
-**Shah, AS**, Clements, SD. "Nocardioma: neuroendocrine hyperplasia as a response to pulmonary nocardiosis". Annals of Internal Medicine. [submitted]
+__Shah, AS__, Clements, SD. "Nocardioma: neuroendocrine hyperplasia as a response to pulmonary nocardiosis". Annals of Internal Medicine. [submitted]
 
-**Shah, AS**, Evans, M, Akbashev, M. "Point-Of-Care Ultrasonography Utility in Resident Learning and Clinical Decision Making". Institutional Review Board, Emory University, Atlanta, Georgia, March, 2018. [IRB approval granted]
+__Shah, AS__, Evans, M, Akbashev, M. "Point-Of-Care Ultrasonography Utility in Resident Learning and Clinical Decision Making". Institutional Review Board, Emory University, Atlanta, Georgia, March, 2018. [IRB approval granted]
 
-**Shah, AS**, Park, J, Mehta, PK, Shah, AJ, Quyyumi, AA, Vaccarino, V, Marvar, P. "Brain-Heart Interactions in Stress and Anxiety Related Disorders: Implications for Increased Cardiovascular Disease Risk". Hypertension. [invited review article]
+__Shah, AS__, Park, J, Mehta, PK, Shah, AJ, Quyyumi, AA, Vaccarino, V, Marvar, P. "Brain-Heart Interactions in Stress and Anxiety Related Disorders: Implications for Increased Cardiovascular Disease Risk". Hypertension. [invited review article]
   
 
 ### Published abstracts  
 
 `2014` 
-**Shah, AS**, Blackman, S. “Genetic Linkage Analysis for Cystic Fibrosis Related Diabetes”. National Institute of Diabetes and Digestive and Kidney Diseases Medical Student Research Symposium at Vanderbilt University, Nashville, Tennessee. 
+__Shah, AS__, Blackman, S. “Genetic Linkage Analysis for Cystic Fibrosis Related Diabetes”. National Institute of Diabetes and Digestive and Kidney Diseases Medical Student Research Symposium at Vanderbilt University, Nashville, Tennessee. 
   
 `2017` 
-Mrdutt, M, **Shah, AS**, Sanders, Mallett, L, Perger, LP. “Long-Term Outcomes of Newborns with Necrotizing Enterocolitis: a retrospective matched cohort study”. Annual Meeting of the Canadian Association of Pediatric Surgery Conference.  
+Mrdutt, M, __Shah, AS__, Sanders, Mallett, L, Perger, LP. “Long-Term Outcomes of Newborns with Necrotizing Enterocolitis: a retrospective matched cohort study”. Annual Meeting of the Canadian Association of Pediatric Surgery Conference.  
   
 `2017` 
-**Shah, AS**, Clements, SD, Dudgeon, M. “Three’s company: nocardiosis, neuroendocrine hyperplasia, and breast cancer”. Southern Hospital Medicine Conference, New Orleans, Louisiana.  
+__Shah, AS__, Clements, SD, Dudgeon, M. “Three’s company: nocardiosis, neuroendocrine hyperplasia, and breast cancer”. Southern Hospital Medicine Conference, New Orleans, Louisiana.  
   
 `2018` 
-**Shah, AS**, Lampert R, Goldberg, J, Bremner, JD, Vaccarino, V, Shah, AJ. “Circadian Autonomic Inflexibility: a Marker of Ischemic Heart Disease”. Circulation. 
+__Shah, AS__, Lampert R, Goldberg, J, Bremner, JD, Vaccarino, V, Shah, AJ. “Circadian Autonomic Inflexibility: a Marker of Ischemic Heart Disease”. Circulation. 
 
 ## References
 
