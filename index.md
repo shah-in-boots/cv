@@ -416,11 +416,19 @@ Email: apham@emory.edu
 Office: 404-778-1626  
 Fax: 404-778-1601  
 
-Ananth Vadde, MD
-Instructor of Medicine
-Division of Hospital Medicine
-Emory University School of Medicine
-Email: ananth.vadde@emory.edu
+Ananth Vadde, MD  
+Instructor of Medicine  
+Division of Hospital Medicine  
+Emory University School of Medicine  
+Email: ananth.vadde@emory.edu  
+
+David Krakow, MD  
+Master Clinician  
+Assistant Professor of Medicine  
+Division of Hospital Medicine  
+Emory University School of Medicine  
+Email: dkrakow@emory.edu  
+Office: 404-686-7869  
 
 ### Ultrasonography
 
