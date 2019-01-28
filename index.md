@@ -365,7 +365,6 @@ Chicago, Illinois
 
 ### Manuscripts  
 
-
 ### Works in progress
 
 Mrdutt, M, __Shah, AS__, Sanders, Mallett, L, Perger, LP. “Long-Term Outcomes of Newborns with Necrotizing Enterocolitis: a retrospective matched cohort study”. Canadian Association of Pediatric Surgery Edition of the Journal of Pediatric Surgery, May 2017 [accepted]  
