@@ -365,15 +365,16 @@ Chicago, Illinois
 
 ### Manuscripts  
 
-__Shah, AS__, Lampert R, Goldberg, J, Bremner, JD, Vaccarino, V, Shah, AJ. "Circadian Changes in Heart Rate Variability Predict Abnormal Myocardial Perfusion". [submitted]
 
 ### Works in progress
 
 Mrdutt, M, __Shah, AS__, Sanders, Mallett, L, Perger, LP. “Long-Term Outcomes of Newborns with Necrotizing Enterocolitis: a retrospective matched cohort study”. Canadian Association of Pediatric Surgery Edition of the Journal of Pediatric Surgery, May 2017 [accepted]  
-  
+
 __Shah, AS__, Alvaro, A, Whitsel, E, Vaccarino, V, Shah, AJ. “Heart Rate Variability and Psychosocial States: an Atherosclerosis Risk In Communities study”. Atherosclerosis Risk In Communities Publications Committee, October 2017. [proposal accepted]  
 
-__Shah, AS__, Clements, SD. "Nocardioma: neuroendocrine hyperplasia as a response to pulmonary nocardiosis". Annals of Internal Medicine. [submitted]
+__Shah, AS__, Clements, SD, Dudgeon, M. "Nocardioma: neuroendocrine hyperplasia as a response to pulmonary nocardiosis". Annals of Internal Medicine. [pending]
+
+__Shah, AS__, Lampert R, Goldberg, J, Bremner, JD, Vaccarino, V, Shah, AJ. "Circadian Changes in Heart Rate Variability Predict Abnormal Myocardial Perfusion". [submitted] 
 
 __Shah, AS__, Evans, M, Akbashev, M. "Point-Of-Care Ultrasonography Utility in Resident Learning and Clinical Decision Making". Institutional Review Board, Emory University, Atlanta, Georgia, March, 2018. [IRB approval granted]
 
