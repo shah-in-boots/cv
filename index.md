@@ -356,7 +356,7 @@ Vancouver, Canada
   
 `2018` 
 _Circadian Autonomic Inflexibility: a Marker of Ischemic Heart Disease_  
-__Anish Shah MD*__, Rachel Lampert MD, Jack Goldberg PhD, J. Douglas Bremner MD, Lian Li PhD, Marc Thames MD, Viola Vaccarino MD PhD, Amit Shah MD MSCR  
+__Anish Shah MD__*, Rachel Lampert MD, Jack Goldberg PhD, J. Douglas Bremner MD, Lian Li PhD, Marc Thames MD, Viola Vaccarino MD PhD, Amit Shah MD MSCR  
 Poster Presentation  
 American Heart Association Scientific Sessions  
 Chicago, Illinois  
