@@ -107,7 +107,7 @@ _M3 Ultrasound Workshop Leader_
 
 `2019` 
 Emory University School of Medicine  
-_Physical Exam and Clinical Decision Making Workshop_  
+_Physical Exam and Clinical Decision Making Workshop Leader_  
 
 ###	Medical resident
 
