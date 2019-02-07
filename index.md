@@ -375,9 +375,9 @@ __Shah, AS__, Clements, SD, Dudgeon, M. "Nocardioma: neuroendocrine hyperplasia 
 
 __Shah, AS__, Lampert R, Goldberg, J, Bremner, JD, Vaccarino, V, Shah, AJ. "Circadian Changes in Heart Rate Variability Predict Abnormal Myocardial Perfusion". [submitted] 
 
-__Shah, AS__, Evans, M, Akbashev, M. "Point-Of-Care Ultrasonography Utility in Resident Learning and Clinical Decision Making". Institutional Review Board, Emory University, Atlanta, Georgia, March, 2018. [IRB approval granted]
+__Shah, AS__, Klein, R, Akbashev, M. "Cardiovascular Ultrasonography in Resident Learning and Clinical Decision Making". Institutional Review Board, Emory University, Atlanta, Georgia, March, 2018. [IRB approval granted]
 
-__Shah, AS__, Park, J, Mehta, PK, Shah, AJ, Quyyumi, AA, Vaccarino, V, Marvar, P. "Brain-Heart Interactions in Stress and Anxiety Related Disorders: Implications for Increased Cardiovascular Disease Risk". Hypertension. [invited review article]
+Park, J, __Shah, AS__, Mehta, PK, Shah, AJ, Quyyumi, AA, Vaccarino, V, Marvar, P. "Brain-Heart Interactions in Stress and Anxiety Related Disorders: Implications for Increased Cardiovascular Disease Risk". Hypertension. [invited review article, authorship pending]
   
 
 ### Published abstracts  
