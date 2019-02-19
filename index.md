@@ -135,14 +135,11 @@ J. Willis Hurst Internal Medicine Residency Program
 _Ironing Out Transfusions in Sickle Cell_  
 Bite-Sized Teaching Mode Conference  
 
-### Faculty 
-
-`2017` 
+`2019` 
 Emory University School of Medicine  
-Department of Medicine  
-_Parasternal Long Axis View_  
-Lecture for Faculty Development Conference  
-  
+J. Willis Hurst Internal Medicine Residency Program  
+_The History of Sudden Cardiac Death: the Role of the Autonomic Nervous System_  
+Senior Grand Rounds  
 
 ### __REGIONAL__
 
@@ -167,6 +164,7 @@ Hugo Cavalia, M4 - July 2018
 Brian Mott, M3 - August 2018  
 Anna Coronata, M3 - December 2018  
 Eli Mlaver, M3 - December 2018  
+Grace Helen Frankel, PA-S - February 2019 to June 2019  
 
 __Interns__:   
 Rebecca Engels - January 2018  
