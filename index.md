@@ -384,7 +384,7 @@ Park, J, __Shah, AS__, Mehta, PK, Shah, AJ, Quyyumi, AA, Vaccarino, V, Marvar, P
 __Shah, AS__, Blackman, S. “Genetic Linkage Analysis for Cystic Fibrosis Related Diabetes”. National Institute of Diabetes and Digestive and Kidney Diseases Medical Student Research Symposium at Vanderbilt University, Nashville, Tennessee. 
   
 `2017` 
-Mrdutt, M, __Shah, AS__, Sanders, E, Mallett, L, Perger, LP. “Long-Term Outcomes of Newborns with Necrotizing Enterocolitis: a retrospective matched cohort study”. Annual Meeting of the Canadian Association of Pediatric Surgery Conference.  
+Mrdutt, M, __Shah, AS__, Sanders, E, Mallett, L, Perger, LP. “Long-Term Outcomes of Newborns with Necrotizing Enterocolitis: a retrospective matched cohort study”. Annual Meeting of the Canadian Association of Pediatric Pediatric Surgeons, Vancouver, British Columbia, Canada.
   
 `2017` 
 __Shah, AS__, Clements, SD, Dudgeon, M. “Three’s company: nocardiosis, neuroendocrine hyperplasia, and breast cancer”. Southern Hospital Medicine Conference, New Orleans, Louisiana.  
