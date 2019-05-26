@@ -12,7 +12,7 @@ title: Curriculum Vitae
 <i class="fa fa-twitter"></i> <a href="http://twitter.com/shah_in_boots">Twitter</a>
 </div>
 
-Resident physician in internal medicine with an interest in heart rate variability, epidemiology, biostatistics, and point-of-care ultrasonography.
+Resident physician in internal medicine with an interest in autonomic dysfunction, heart rate variability, epidemiology, biostatistics, and point-of-care ultrasonography.
 
 ## Personal information
 
@@ -428,6 +428,15 @@ Division of Hospital Medicine
 Emory University School of Medicine  
 Email: dkrakow@emory.edu  
 Office: 404-686-7869  
+
+Natasha Travis, MD  
+Assistant Professor of Medicine  
+Division of General Medicine and Geriatrics  
+Emory University School of Medicine  
+49 Jesse Hill Jr. Dr. S.E.  
+Atlanta, GA 30303  
+Email: natasha.travis@emory.edu  
+Office: 404-686-8181  
 
 ### Ultrasonography
 
