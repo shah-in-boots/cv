@@ -1,6 +1,5 @@
 ---
 layout: cv
-title: Curriculum Vitae
 ---
 
 # Anish Shah
