@@ -141,6 +141,13 @@ J. Willis Hurst Internal Medicine Residency Program
 _The History of Sudden Cardiac Death: the Role of the Autonomic Nervous System_  
 Senior Grand Rounds  
 
+###	Medical faculty
+
+`2017`
+Emory University School of Medicine  
+Division of General Medicine and Geriatrics  
+Point-of-Care Ultrasound: Evaluation of the IVC
+
 ### __REGIONAL__
 
 ### Faculty
@@ -177,6 +184,8 @@ Ross Bittman - November 2018 (Bite-sized Teaching Mode Conference Coach)
 Samuel Huxley - December 2018  
 Ross Bittman - December 2018  
 Arjun Athreya - January 2019 (Bite-sized Teaching Mode Conference Coach)  
+Lakshmi Katta - April 2019  
+Ryan Brown - April 2019  
 
 ## Professional Memberships
 
