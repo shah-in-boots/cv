@@ -30,6 +30,11 @@ _Clinic_
 Suite 491  
 Atlanta, Georgia 30303  
 
+Home
+
+1568 Lenox Overlook Road  
+Brookhaven, GA 30329  
+
 ### Contact
 
 _E-mail_ asshah4@emory.edu
@@ -449,8 +454,9 @@ Office: 404-686-8181
 ### Ultrasonography
 
 Mikhail Akbashev, MD  
-Course Director and Clinical Lead - Point of Care Ultrasound  
+Course Director and Clinical Lead - Point-of-Care Ultrasound  
 Assistant Professor  
+Division of General Medicine and Geriatrics  
 Emory University School of Medicine  
 Email: makbash@emory.edu  
 
