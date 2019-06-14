@@ -37,11 +37,11 @@ Brookhaven, GA 30329
 
 ### Contact
 
-_E-mail_ asshah4@emory.edu
+_E-mail_: asshah4@emory.edu
 
-_Phone_ 469-835-7606
+_Phone_: 469-835-7606
 
-_Fax_ 226-589-5000
+_Fax_: 226-589-5000
 
 ### Citizenship
 
@@ -228,12 +228,13 @@ __Point-of-care ultrasonography__:
 Training included 1 month of ultrasound curriculum and 2 months of emergency medicine ultrasound during medical school, including wilderness medicine training. Further training in residency during ICU, wards, and cardiology rotations. Skills include obtain cardiac views, assessing global cardiac function, identifying pleural disease, IVC assessment, identifying hydronephrosis, and skin/soft tissue evaluation.  
 
 __Procedures__:   
-Arterial line placement (radial, brachial, dorsalis pedis) - 30  
-Arthrocentesis (knee, ankle, shoulder) - 18  
-Central line placement (internal jugular, femoral, subclavian) - 58  
-Lumbar puncture - 22  
-Thoracentesis - 14  
-Paracentesis - 17  
+Point-of-care ultrasonography  
+Arterial line placement (radial, brachial, dorsalis pedis) - 52  
+Arthrocentesis (knee, ankle, shoulder) - 31  
+Central line placement (internal jugular, femoral, subclavian) - 84  
+Lumbar puncture - 34  
+Thoracentesis - 19  
+Paracentesis - 24  
 
 ###	Languages spoken
   
@@ -384,11 +385,11 @@ __Shah, AS__, Alvaro, A, Whitsel, E, Vaccarino, V, Shah, AJ. “Heart Rate Varia
 
 __Shah, AS__, Clements, SD, Dudgeon, M. "Nocardioma: neuroendocrine hyperplasia as a response to pulmonary nocardiosis". Annals of Internal Medicine. [pending]
 
-__Shah, AS__, Lampert R, Goldberg, J, Bremner, JD, Vaccarino, V, Shah, AJ. "Circadian Changes in Heart Rate Variability Predict Abnormal Myocardial Perfusion". [submitted] 
+__Shah, AS__, Lampert R, Goldberg, J, Bremner, JD, Vaccarino, V, Shah, AJ. "Circadian Changes in Heart Rate Variability Predict Abnormal Myocardial Perfusion". [under review] 
 
-__Shah, AS__, Klein, R, Akbashev, M. "Cardiovascular Ultrasonography in Resident Learning and Clinical Decision Making". Institutional Review Board, Emory University, Atlanta, Georgia, March, 2018. [IRB approval granted]
+__Shah, AS__, Klein, R, Akbashev, M. "Cardiovascular Ultrasonography in Resident Learning and Clinical Decision Making". Institutional Review Board, Emory University, Atlanta, Georgia, March, 2018. [pending]
 
-Park, J, __Shah, AS__, Mehta, PK, Shah, AJ, Quyyumi, AA, Vaccarino, V, Marvar, P. "Brain-Heart Interactions in Stress and Anxiety Related Disorders: Implications for Increased Cardiovascular Disease Risk". Hypertension. [invited review article, authorship pending]
+Park, J, __Shah, AS__, Mehta, PK, Shah, AJ, Quyyumi, AA, Vaccarino, V, Marvar, P. "Brain-Heart Interactions in Stress and Anxiety Related Disorders: Implications for Increased Cardiovascular Disease Risk". Hypertension. [pending]
   
 
 ### Published abstracts  
