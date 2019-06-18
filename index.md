@@ -147,7 +147,7 @@ Senior Grand Rounds
 
 ###	Medical faculty
 
-`2017`
+`2017`  
 Emory University School of Medicine  
 Division of General Medicine and Geriatrics  
 Point-of-Care Ultrasound: Evaluation of the IVC
@@ -377,6 +377,8 @@ Chicago, Illinois
 
 ### Manuscripts  
 
+__Shah, AS__, Lampert R, Goldberg, J, Bremner, JD, Vaccarino, V, Shah, AJ. "Circadian Changes in Heart Rate Variability Predict Abnormal Myocardial Perfusion". [under review] 
+
 ### Works in progress
 
 Mrdutt, M, __Shah, AS__, Sanders, Mallett, L, Perger, LP. “Long-Term Outcomes of Newborns with Necrotizing Enterocolitis: a retrospective matched cohort study”. Canadian Association of Pediatric Surgery Edition of the Journal of Pediatric Surgery, May 2017 [accepted]  
@@ -385,12 +387,11 @@ __Shah, AS__, Alvaro, A, Whitsel, E, Vaccarino, V, Shah, AJ. “Heart Rate Varia
 
 __Shah, AS__, Clements, SD, Dudgeon, M. "Nocardioma: neuroendocrine hyperplasia as a response to pulmonary nocardiosis". Annals of Internal Medicine. [pending]
 
-__Shah, AS__, Lampert R, Goldberg, J, Bremner, JD, Vaccarino, V, Shah, AJ. "Circadian Changes in Heart Rate Variability Predict Abnormal Myocardial Perfusion". [under review] 
-
 __Shah, AS__, Klein, R, Akbashev, M. "Cardiovascular Ultrasonography in Resident Learning and Clinical Decision Making". Institutional Review Board, Emory University, Atlanta, Georgia, March, 2018. [pending]
 
 Park, J, __Shah, AS__, Mehta, PK, Shah, AJ, Quyyumi, AA, Vaccarino, V, Marvar, P. "Brain-Heart Interactions in Stress and Anxiety Related Disorders: Implications for Increased Cardiovascular Disease Risk". Hypertension. [pending]
-  
+
+ __Shah, AS__, Shah, AJ, Mehta, PK, Thames, MD. "Sympathetic Innervation of the Heart: a Clinical Review". [pending]
 
 ### Published abstracts  
 
