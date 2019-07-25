@@ -150,7 +150,7 @@ Senior Grand Rounds
 `2017`  
 Emory University School of Medicine  
 Division of General Medicine and Geriatrics  
-Point-of-Care Ultrasound: Evaluation of the IVC
+Point-of-Care Ultrasound: Parasternal Long Axis
 
 ### __REGIONAL__
 
@@ -377,7 +377,7 @@ Chicago, Illinois
 
 ### Manuscripts  
 
-__Shah, AS__, Lampert R, Goldberg, J, Bremner, JD, Vaccarino, V, Shah, AJ. "Circadian Changes in Heart Rate Variability Predict Abnormal Myocardial Perfusion". [under review] 
+__Shah, AS__, Lampert R, Goldberg, J, Bremner, JD, Thames, MD, Vaccarino, V, Shah, AJ. "Circadian Changes in Heart Rate Variability Predict Abnormal Myocardial Perfusion". [under review] 
 
 ### Works in progress
 
