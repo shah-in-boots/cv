@@ -11,7 +11,7 @@ layout: cv
 <i class="fa fa-twitter"></i> <a href="http://twitter.com/shah_in_boots">Twitter</a>
 </div>
 
-Resident physician in internal medicine with an interest in autonomic dysfunction, heart rate variability, epidemiology, biostatistics, and point-of-care ultrasonography.
+Resident physician with an interest in autonomic dysfunction, heart rate variability, epidemiology, biostatistics, and point-of-care ultrasonography.
 
 ## Personal information
 
@@ -30,7 +30,7 @@ _Clinic_
 Suite 491  
 Atlanta, Georgia 30303  
 
-Home
+_Home_
 
 1568 Lenox Overlook Road  
 Brookhaven, GA 30329  
@@ -47,17 +47,39 @@ _Fax_: 226-589-5000
 
 United States of America
 
+## Academic and Professional Appointments
+
+### Current Appointments
+
+`2019-present`  
+Assistant Professor of Medicine  
+Division of Hospital Medicine  
+Emory University School of Medicine  
+
+`2019-present`  
+Postdoctoral Fellow  
+Department of Epidemiology  
+Emory University Rollins School of Public Health  
+
+`2019-2020`  
+NIH-TL1 Postdoctoral Scholar  
+Georgia Clinical and Translational Science Alliance  
+
 ## Training
 
 ###	Education
 
-`2007-2011` 
+`2007-2011`  
 Emory University College of Arts and Sciences, Atlanta, Georgia  
 _Bachelor of Science in Linguistics and Neurosciences & Behavioral Biology_  
 
-`2012-2016` 
+`2012-2016`  
 Texas A&M University College of Medicine, College Station, Texas  
 _Doctor of Medicine_  
+
+`2019-2020`  
+Emory University Laney Graduate School, Atlanta, Georgia  
+_Master of Science in Clinical Research_  
 
 ###	Postgraduate training
 
@@ -66,6 +88,7 @@ Emory University School of Medicine, Atlanta, Georgia
 _J. Willis Hurst Internal Medicine Residency_  
 Distinction in Teaching and Leadership  
 
+
 ###	Licensure and Boards
 
 USMLE Step 1 (248)  
@@ -73,8 +96,6 @@ USMLE Step 2 CK (253)
 USMLE Step 3 (243)  
 
 ## Teaching
-
-### __LOCAL__
 
 ### Undergraduate
 
@@ -105,7 +126,7 @@ Physician Assistant Program
 Didactic Experiential Learning Program  
 _Faculty Preceptor_
 
-`2018` 
+`2018-2019` 
 Emory University School of Medicine  
 _M3 Ultrasound Workshop Leader_  
 
@@ -139,22 +160,24 @@ J. Willis Hurst Internal Medicine Residency Program
 _Ironing Out Transfusions in Sickle Cell_  
 Bite-Sized Teaching Mode Conference  
 
-`2019` 
+`2019`  
 Emory University School of Medicine  
 J. Willis Hurst Internal Medicine Residency Program  
 _The History of Sudden Cardiac Death: the Role of the Autonomic Nervous System_  
 Senior Grand Rounds  
 
-###	Medical faculty
+`2019`  
+Emory University School of Medicine  
+J. Willis Hurst Internal Medicine Residency Program  
+Point-of-Care Ultrasonography Elective  
+Teaching Attending
+
+###	Faculty
 
 `2017`  
 Emory University School of Medicine  
 Division of General Medicine and Geriatrics  
 Point-of-Care Ultrasound: Parasternal Long Axis
-
-### __REGIONAL__
-
-### Faculty
 
 `2018` 
 Southern Hospital Medicine Conference  
@@ -219,6 +242,8 @@ Doctor’s Dilemma (Medical Jeopardy), Emory’s Resident Team, Georgia ACP Conf
 `2018` 
 American Heart Association Scientific Sessions - Top Donors Meeting presentation  
 	_Special invitation to discuss research with AHA leadership and top philanthropists._
+`2019`
+NIH-TL1 Postdoctoral Scholar, Ruth L. Kirschtein National Research Service Award  
 
 ## Skills
 
@@ -251,19 +276,25 @@ C++ - low-level programming language for data processing
 Vim - command line editing  
 Markdown - syntax for formatting of writing  
 Git, Github - version control system  
+MATLAB - matrix-oriented mathematical programming language  
 
 ### Certifications
 
 `2007-2010` 
 EMT-B  
+  
 `2012—2016` 
 ATLS  
+  
 `2012—present` 
 ACLS  
+  
 `2015—present` 
 PADI Open Water Diver  
+  
 `2016—present` 
 Wilderness First Responder  
+  
 `2017—present` 
 ASA 101 Basic Keelboat  
 
@@ -326,14 +357,12 @@ __Anish Shah__, Yu Li PhD
 Poster Presentation  
 Great Lakes Expo for Experimental and Formal Undergraduate Linguistics, Michigan State University, East Lansing, Michigan  
   
-
 `2015` 
 _Illuminating the Case of a Rare GI Bleed_  
 __Anish Shah__, Austin Metting MD  
 Poster Presentation  
 American College of Physicians Texas Chapter Conference  
   
-
 `2017` 
 _Three’s company: nocardiosis, neuroendocrine hyperplasia, and breast cancer_  
 __Anish Shah MD__, Stephen D. Clements MD, Matthew Dudgeon MD PhD  
@@ -341,7 +370,6 @@ Poster Presentation
 American College of Physicians Georgia Chapter Conference  
 Savannah, Georgia  
   
-
 `2017` 
 _Three’s company: nocardiosis, neuroendocrine hyperplasia, and breast cancer_  
 __Anish Shah MD__, Stephen D. Clements MD, Matthew Dudgeon MD PhD  
@@ -375,7 +403,16 @@ Chicago, Illinois
 
 ## Research
 
-### Manuscripts  
+### Funding
+
+`2019-2020`  
+Postdoctoral Scholar, NIH-TL1 Training Grant  
+Georgia Clinical and Translational Science Alliance  
+_Disturbances of the Neurocardiac Axis: Using Heart Rate Variability to Measure Disease in the Brain and Heart_  
+Grant: TL1TR002382, UL1TR002378  
+
+
+### Manuscripts
 
 __Shah, AS__, Lampert R, Goldberg, J, Bremner, JD, Thames, MD, Vaccarino, V, Shah, AJ. "Circadian Changes in Heart Rate Variability Predict Abnormal Myocardial Perfusion". [under review] 
 
@@ -383,11 +420,11 @@ __Shah, AS__, Lampert R, Goldberg, J, Bremner, JD, Thames, MD, Vaccarino, V, Sha
 
 Mrdutt, M, __Shah, AS__, Sanders, Mallett, L, Perger, LP. “Long-Term Outcomes of Newborns with Necrotizing Enterocolitis: a retrospective matched cohort study”. Canadian Association of Pediatric Surgery Edition of the Journal of Pediatric Surgery, May 2017 [accepted]  
 
-__Shah, AS__, Alvaro, A, Whitsel, E, Vaccarino, V, Shah, AJ. “Heart Rate Variability and Psychosocial States: an Atherosclerosis Risk In Communities study”. Atherosclerosis Risk In Communities Publications Committee, October 2017. [proposal accepted]  
+__Shah, AS__, Alvaro, A, Whitsel, E, Vaccarino, V, Shah, AJ. “Heart Rate Variability and Psychosocial States: the Atherosclerosis Risk In Communities study”. [pending]  
 
 __Shah, AS__, Clements, SD, Dudgeon, M. "Nocardioma: neuroendocrine hyperplasia as a response to pulmonary nocardiosis". Annals of Internal Medicine. [pending]
 
-__Shah, AS__, Klein, R, Akbashev, M. "Cardiovascular Ultrasonography in Resident Learning and Clinical Decision Making". Institutional Review Board, Emory University, Atlanta, Georgia, March, 2018. [pending]
+__Shah, AS__, Klein, R, Akbashev, M. "Cardiovascular Ultrasonography in Resident Learning and Clinical Decision Making" [pending]
 
 Park, J, __Shah, AS__, Mehta, PK, Shah, AJ, Quyyumi, AA, Vaccarino, V, Marvar, P. "Brain-Heart Interactions in Stress and Anxiety Related Disorders: Implications for Increased Cardiovascular Disease Risk". Hypertension. [pending]
 
