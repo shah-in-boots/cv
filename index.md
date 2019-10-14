@@ -235,6 +235,9 @@ Delores B. Aldridge Excellence in Service to a Diverse Community Award
 Nu Rho Psi Honor Society  
 `2009` 
 Speaker to His Holiness the XIV Dalai Lama  
+	_Selected to represent Emory students in a meeting with the Dalai Lama in MacLeod Gange, India._
+`2013` 
+Medical Student Research Program in Diabetes, National Institute of Diabetes and Digestive and Kidney Diseases  
 `2015` 
 Texas A&M University College of Medicine Research Symposium, 1st Place Oral Presentation  
 `2017` 
@@ -349,6 +352,14 @@ Poster Presentation
 Mr. William E. Booth and Dr. James Zaidan Grady Resident Research Day  
 Atlanta, Georgia  
   
+`2019` 
+_Association of Psychosocial Factors with Heart Rate Variability: The Atherosclerosis Risk in Communities Study_  
+__Anish Shah MD__, Alvaro Alonso MD PhD, Amit Shah MD MSCR  
+Poster Presentation  
+Emory University Department of Medicine Research Day  
+Atlanta, Georgia  
+  
+
 ### Regional  
   
 `2011` 
