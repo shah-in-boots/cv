@@ -39,7 +39,7 @@ Brookhaven, GA 30329
 
 _E-mail_: asshah4@emory.edu
 
-_Phone_: 469-835-7606
+_Phone_: ...
 
 _Fax_: 226-589-5000
 
@@ -91,9 +91,10 @@ Distinction in Teaching and Leadership
 
 ###	Licensure and Boards
 
-USMLE Step 1 (248)  
-USMLE Step 2 CK (253)  
-USMLE Step 3 (243)  
+USMLE Step 1  
+USMLE Step 2 CK  
+USMLE Step 3  
+American Board of Internal Medicine Certification  
 
 ## Teaching
 
