@@ -1,14 +1,15 @@
 ---
 name: Anish Sanjay Shah
 date: "`r format(Sys.time(), '%B %D, %Y')`"
-position: "Postdoctoral Fellow"
-address: "Rollins School of Public Health, Emory University"
-email: "asshah4@emory.edu"
+position: "Cardiology Fellow"
+address: "Division of Cardiology, University of Illinois Chicago, Chicago, IL, 60607"
+email: "ashah282@uic.edu"
+phone: 312-839-5619
+fax: 226-589-5000
 www: asshah4.github.io
 github: asshah4
-linkedin: anish-shah-326991177
 twitter: shah_in_boots
-output: vitae::hyndman
+output: vitae::awesomecv
 ---
 
 ```{r setup, include=FALSE}
@@ -17,17 +18,77 @@ library(vitae)
 library(rorcid)
 library(tidyr)
 library(dplyr)
+library(glue)
+library(readr)
+
+# Data
+entries <- read_csv("data/entries.csv")
 ```
 
 # About Me
 
-Hello world.
+Cardiology fellow with an interest in autonomic dysfunction, heart rate variability, epidemiology, biostatistics, and point-of-care ultrasonography.
 
 # Education
 
+```{r education}
+entries %>%
+	filter(section == "education") %>%
+	arrange(start) %>%
+	detailed_entries(
+		when = glue("{start}--{end}"),
+		what = title,
+		where = location,
+		with = institution,
+		why = description
+	) 
+```
+
+# Training
+
+```{r training}
+entries %>%
+	filter(section == "training") %>%
+	arrange(start) %>%
+	detailed_entries(
+		when = glue("{start}--{end}"),
+		what = title,
+		where = location,
+		with = institution,
+		why = description
+	) 
+```
+
+# Appointments
+
+```{r appts}
+entries %>%
+	filter(section == "appointments") %>%
+	arrange(start) %>%
+	detailed_entries(
+		when = glue("{start}--{end}"),
+		what = title,
+		where = location,
+		with = institution,
+		why = description
+	) 
+```
+
+# Conferences
+
+```{r conferences}
+bibliography_entries("../bibliography/Publications.bib") %>%
+	filter(type == "paper-conference") %>%
+	arrange(issued) %>%
+	select(-c(volume, issue, abstract, URL, DOI, ISSN, page, keyword, PMID))
+```
+
 # Publications
 
-```{r}
-as.orcid(x = "0000-0002-9729-1558")
+```{r pubs}
+bibliography_entries("../bibliography/Publications.bib") %>%
+	filter(type == "article-journal") %>%
+	arrange(issued) %>%
+	select(-c(issue, ISSN, publisher, page, keyword, PMID, `publisher-place`))
 ```
 
