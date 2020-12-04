@@ -9,7 +9,7 @@ fax: 226-589-5000
 www: asshah4.github.io
 github: asshah4
 twitter: shah_in_boots
-output: vitae::awesomecv
+output: vitae::hyndman
 ---
 
 ```{r setup, include=FALSE}
@@ -26,7 +26,9 @@ library(readr)
 
 Cardiology fellow with an interest in autonomic dysfunction, heart rate variability, epidemiology, biostatistics, and point-of-care ultrasonography.
 
-# Education
+# Academic
+
+## Degrees
 
 ```{r education}
 read_csv("data/positions.csv") %>%
@@ -41,7 +43,7 @@ read_csv("data/positions.csv") %>%
 	) 
 ```
 
-# Training
+## Clinical Training
 
 ```{r training}
 read_csv("data/positions.csv") %>%
@@ -56,7 +58,7 @@ read_csv("data/positions.csv") %>%
 	) 
 ```
 
-# Appointments
+## Current Appointments
 
 ```{r appts}
 read_csv("data/positions.csv") %>%
@@ -76,7 +78,7 @@ read_csv("data/positions.csv") %>%
 ```{r awards}
 read_csv("data/honors.csv") %>%
 	filter(section == "awards") %>%
-	arrange(start) %>%
+	arrange(desc(start)) %>%
 	detailed_entries(
 		when = case_when(
 			is.na(end) ~ glue("{start}"),
@@ -91,10 +93,12 @@ read_csv("data/honors.csv") %>%
 
 # Teaching
 
+## Teaching Responsibilities
+
 ```{r teaching}
 read_csv("data/academic.csv") %>%
 	filter(section == "teaching") %>%
-	arrange(start) %>%
+	arrange(desc(start)) %>%
 	detailed_entries(
 		when = case_when(
 			is.na(end) ~ glue("{start}"),
@@ -107,12 +111,12 @@ read_csv("data/academic.csv") %>%
 	) 
 ```
 
-# Lectures
+## Educational Lectures
 
 ```{r talks}
 read_csv("data/academic.csv") %>%
 	filter(section == "talks") %>%
-	arrange(start) %>%
+	arrange(desc(start)) %>%
 	detailed_entries(
 		when = case_when(
 			is.na(end) ~ glue("{start}"),
@@ -125,7 +129,9 @@ read_csv("data/academic.csv") %>%
 	) 
 ```
 
-# Conferences
+# Research
+
+## Conferences
 
 ```{r conferences}
 bibliography_entries("../bibliography/Publications.bib") %>%
@@ -134,7 +140,7 @@ bibliography_entries("../bibliography/Publications.bib") %>%
 	select(-c(volume, issue, abstract, URL, DOI, ISSN, page, keyword, PMID))
 ```
 
-# Publications
+## Publications
 
 ```{r pubs}
 bibliography_entries("../bibliography/Publications.bib") %>%
