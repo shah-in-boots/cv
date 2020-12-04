@@ -1,7 +1,11 @@
 {
     "source_window_id": "",
     "Source": "Source",
-    "cursorPosition": "24,10",
-    "scrollLine": "0",
-    "marks": "<:97,2\n>:111,2"
+    "cursorPosition": "189,35",
+    "scrollLine": "152",
+    "marks": "<:153,0\n>:153,0",
+    "rmdVisualMode": "false",
+    "rmdVisualWrapConfigured": "true",
+    "docOutlineVisible": "1",
+    "rmdVisualModeLocation": "814:481"
 }

@@ -9,7 +9,8 @@ fax: 226-589-5000
 www: asshah4.github.io
 github: asshah4
 twitter: shah_in_boots
-output: vitae::hyndman
+output: 
+  vitae::hyndman
 ---
 
 ```{r setup, include=FALSE}
@@ -20,24 +21,25 @@ library(tidyr)
 library(dplyr)
 library(glue)
 library(readr)
-```
 
-# About Me
+# All data
+entries <- read_csv("entries.csv")
+bib <- bibliography_entries("../bibliography/Publications.bib")
+```
 
 Cardiology fellow with an interest in autonomic dysfunction, heart rate variability, epidemiology, biostatistics, and point-of-care ultrasonography.
 
-# Academic
+# Academic Qualifications and Positions
 
-## Degrees
+## Education
 
 ```{r education}
-read_csv("data/positions.csv") %>%
+entries %>%
 	filter(section == "education") %>%
 	arrange(start) %>%
 	detailed_entries(
 		when = glue("{start}--{end}"),
 		what = title,
-		where = location,
 		with = institution,
 		why = description
 	) 
@@ -46,28 +48,26 @@ read_csv("data/positions.csv") %>%
 ## Clinical Training
 
 ```{r training}
-read_csv("data/positions.csv") %>%
+entries %>%
 	filter(section == "training") %>%
 	arrange(start) %>%
 	detailed_entries(
 		when = glue("{start}--{end}"),
 		what = title,
-		where = location,
 		with = institution,
 		why = description
 	) 
 ```
 
-## Current Appointments
+## Academic Appointments
 
 ```{r appts}
-read_csv("data/positions.csv") %>%
+entries %>%
 	filter(section == "appointments") %>%
-	arrange(start) %>%
+	arrange(desc(start)) %>%
 	detailed_entries(
 		when = glue("{start}--{end}"),
 		what = title,
-		where = location,
 		with = institution,
 		why = description
 	) 
@@ -76,7 +76,7 @@ read_csv("data/positions.csv") %>%
 # Honors and Awards
 
 ```{r awards}
-read_csv("data/honors.csv") %>%
+entries %>%
 	filter(section == "awards") %>%
 	arrange(desc(start)) %>%
 	detailed_entries(
@@ -85,18 +85,32 @@ read_csv("data/honors.csv") %>%
 			!is.na(end) ~ glue("{start}--{end}")
 		),
 		what = title,
-		where = location,
 		with = institution,
 		why = description
 	) 
 ```
 
+# Professional Memberships
+
+```{r soc}
+entries %>%
+	filter(section == "societies") %>%
+	arrange(desc(start)) %>%
+	detailed_entries(
+		when = case_when(
+			is.na(end) ~ glue("{start}"),
+			!is.na(end) ~ glue("{start}--{end}")
+		),
+		what = title
+	) 
+```
+
 # Teaching
 
-## Teaching Responsibilities
+## Teaching Positions
 
 ```{r teaching}
-read_csv("data/academic.csv") %>%
+entries %>%
 	filter(section == "teaching") %>%
 	arrange(desc(start)) %>%
 	detailed_entries(
@@ -105,17 +119,46 @@ read_csv("data/academic.csv") %>%
 			!is.na(end) ~ glue("{start}--{end}")
 		),
 		what = title,
-		where = location,
 		with = institution,
 		why = description
 	) 
 ```
 
-## Educational Lectures
+## Lectures
 
 ```{r talks}
-read_csv("data/academic.csv") %>%
+entries %>%
 	filter(section == "talks") %>%
+	arrange(desc(start)) %>%
+	detailed_entries(
+		when = case_when(
+			is.na(end) ~ glue("{start}"),
+			!is.na(end) ~ glue("{start}--{end}")
+		),
+		what = title,
+		with = institution,
+		why = description
+	) 
+```
+
+# Skills
+
+```{r lang}
+entries %>%
+	filter(section == "skills") %>%
+	detailed_entries(
+		what = title,
+		why = description
+	) 
+```
+
+# Research
+
+## Grant Funding
+
+```{r}
+entries %>%
+	filter(section == "grants") %>%
 	arrange(desc(start)) %>%
 	detailed_entries(
 		when = case_when(
@@ -129,12 +172,10 @@ read_csv("data/academic.csv") %>%
 	) 
 ```
 
-# Research
-
 ## Conferences
 
 ```{r conferences}
-bibliography_entries("../bibliography/Publications.bib") %>%
+bib %>%
 	filter(type == "paper-conference") %>%
 	arrange(issued) %>%
 	select(-c(volume, issue, abstract, URL, DOI, ISSN, page, keyword, PMID))
@@ -143,7 +184,7 @@ bibliography_entries("../bibliography/Publications.bib") %>%
 ## Publications
 
 ```{r pubs}
-bibliography_entries("../bibliography/Publications.bib") %>%
+bib %>%
 	filter(type == "article-journal") %>%
 	arrange(issued) %>%
 	select(-c(issue, ISSN, publisher, page, keyword, PMID, `publisher-place`))
