@@ -1,2 +1,5 @@
-_site/
-*.Rproj*
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.httr-oauth

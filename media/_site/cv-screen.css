@@ -79,7 +79,7 @@ code {
 
 p code {
 	position: absolute;
-	left: -12%;
+	left: -10%;
 }
 
 
@@ -87,8 +87,8 @@ ul {
 	position: relative;
 	left: 25%;
 	width: 65%;
-	margin-bottom: 1.0em;
-	margin-top: 0.5em;
+	margin-bottom: 1.5em;
+	margin-top: 1em;
   columns: 3;
   -webkit-columns: 3;
   -moz-columns: 3;
@@ -112,29 +112,32 @@ h1,h2,h3,h4 {
 }
 
 h1 {
-	color: #9e5a63;
+	color: #763626;
 	text-align: left;
-	font-size: 4em;
+	font-size: 3em;
 	line-height: 1em;
 	position: relative;
 	margin-top: 2em;
 	left: 25%;
 	/* padding: .1rem 1rem; */
+  text-shadow: 1px 1px #fff,
+      					1px 2px #ccc;
 }
 
 h1+p {
 	/*subtitle*/
 	color: #336B87;
 	font-style: italic;
-	font-size: 90%;
+	font-size: 110%;
 	line-height: 2em;
 	margin-top: 0.5em;
 	margin-bottom: 0em !important;
 }
 
 h2 {
-	font-size: 1.6em;
-	color: #97aabd;
+	font-size: 1.1em;
+	/* color: #a00; */
+	color: #1336B87;
 	margin-top: 2em;
 	position: relative;
 	top: 1.4em;
@@ -143,8 +146,8 @@ h2 {
 }
 
 h3 {
-	color: #c96567;
-	font-size: 1.3em;
+	color: #F07415;
+	font-size: 1em;
 	line-height: 2em;
 	position: relative;
 	top: 1.7em;
@@ -167,7 +170,7 @@ a:hover {
   margin-left: 25%;
 	color: #aaa;
 	font-family: Menlo,monospace,sans-serif;
-	font-size: 90%;
+	font-size: 80%;
 }
 
 #webaddress a {
