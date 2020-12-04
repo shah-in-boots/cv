@@ -20,9 +20,6 @@ library(tidyr)
 library(dplyr)
 library(glue)
 library(readr)
-
-# Data
-entries <- read_csv("data/entries.csv")
 ```
 
 # About Me
@@ -32,7 +29,7 @@ Cardiology fellow with an interest in autonomic dysfunction, heart rate variabil
 # Education
 
 ```{r education}
-entries %>%
+read_csv("data/positions.csv") %>%
 	filter(section == "education") %>%
 	arrange(start) %>%
 	detailed_entries(
@@ -47,7 +44,7 @@ entries %>%
 # Training
 
 ```{r training}
-entries %>%
+read_csv("data/positions.csv") %>%
 	filter(section == "training") %>%
 	arrange(start) %>%
 	detailed_entries(
@@ -62,11 +59,65 @@ entries %>%
 # Appointments
 
 ```{r appts}
-entries %>%
+read_csv("data/positions.csv") %>%
 	filter(section == "appointments") %>%
 	arrange(start) %>%
 	detailed_entries(
 		when = glue("{start}--{end}"),
+		what = title,
+		where = location,
+		with = institution,
+		why = description
+	) 
+```
+
+# Honors and Awards
+
+```{r awards}
+read_csv("data/honors.csv") %>%
+	filter(section == "awards") %>%
+	arrange(start) %>%
+	detailed_entries(
+		when = case_when(
+			is.na(end) ~ glue("{start}"),
+			!is.na(end) ~ glue("{start}--{end}")
+		),
+		what = title,
+		where = location,
+		with = institution,
+		why = description
+	) 
+```
+
+# Teaching
+
+```{r teaching}
+read_csv("data/academic.csv") %>%
+	filter(section == "teaching") %>%
+	arrange(start) %>%
+	detailed_entries(
+		when = case_when(
+			is.na(end) ~ glue("{start}"),
+			!is.na(end) ~ glue("{start}--{end}")
+		),
+		what = title,
+		where = location,
+		with = institution,
+		why = description
+	) 
+```
+
+# Lectures
+
+```{r talks}
+read_csv("data/academic.csv") %>%
+	filter(section == "talks") %>%
+	arrange(start) %>%
+	detailed_entries(
+		when = case_when(
+			is.na(end) ~ glue("{start}"),
+			!is.na(end) ~ glue("{start}--{end}")
+		),
 		what = title,
 		where = location,
 		with = institution,
