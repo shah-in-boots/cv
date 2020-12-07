@@ -16,7 +16,6 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
-library(rorcid)
 library(tidyr)
 library(dplyr)
 library(glue)
@@ -141,7 +140,54 @@ entries %>%
 	) 
 ```
 
-# Skills
+# Mentorship
+
+## Students
+
+```{r studs}
+entries %>%
+	filter(section == "mentorship" & status == "student") %>%
+	detailed_entries(
+		where = institution,
+		why = description,
+		when = case_when(
+			is.na(end) ~ glue("{start}"),
+			!is.na(end) ~ glue("{start}--{end}")
+		)
+	)
+```
+
+## Residents
+
+```{r resi}
+entries %>%
+	filter(section == "mentorship" & status == "resident") %>%
+	detailed_entries(
+		where = institution,
+		why = description,
+		when = case_when(
+			is.na(end) ~ glue("{start}"),
+			!is.na(end) ~ glue("{start}--{end}")
+		)
+	)
+```
+
+## Research
+
+```{r research}
+entries %>%
+	filter(section == "mentorship" & status == "research") %>%
+	detailed_entries(
+		where = institution,
+		why = description,
+		when = case_when(
+			is.na(end) ~ glue("{start}"),
+			!is.na(end) ~ glue("{start}--{end}")
+		)
+	)
+```
+
+# Skills 
 
 ```{r lang}
 entries %>%
@@ -150,6 +196,36 @@ entries %>%
 		what = title,
 		why = description
 	) 
+```
+
+# Certifications
+
+## Professional
+
+```{r pro certs}
+entries %>%
+	filter(section == "certifications" & status == "professional") %>%
+	detailed_entries(
+		what = title,
+		when = case_when(
+			is.na(end) ~ glue("{start}"),
+			!is.na(end) ~ glue("{start}--{end}")
+		)
+	)
+```
+
+## Personal
+
+```{r per certs}
+entries %>%
+	filter(section == "certifications" & status == "personal") %>%
+	detailed_entries(
+		what = title,
+		when = case_when(
+			is.na(end) ~ glue("{start}"),
+			!is.na(end) ~ glue("{start}--{end}")
+		)
+	)
 ```
 
 # Research
@@ -181,6 +257,15 @@ bib %>%
 	select(-c(volume, issue, abstract, URL, DOI, ISSN, page, keyword, PMID))
 ```
 
+## Software
+
+```{r packages}
+bib %>%
+	filter(type == "no-type") %>%
+	arrange(issued) %>%
+	select(-c(volume, issue, abstract, DOI, ISSN, page, keyword, PMID, `container-title`))
+```
+
 ## Publications
 
 ```{r pubs}
@@ -189,4 +274,3 @@ bib %>%
 	arrange(issued) %>%
 	select(-c(issue, ISSN, publisher, page, keyword, PMID, `publisher-place`))
 ```
-

@@ -1,9 +1,13 @@
 {
     "sortOrder": [
         {
+            "columnIndex": 4,
+            "ascending": false
+        },
+        {
             "columnIndex": 2,
             "ascending": true
         }
     ],
-    "path": "C:/Users/asshah4/Box Sync/projects/aric"
+    "path": "C:/Users/asshah4/OneDrive - Emory University/projects/cv"
 }
