@@ -4,7 +4,7 @@ date: "`r format(Sys.time(), '%B %D, %Y')`"
 position: "Cardiology Fellow"
 address: "Division of Cardiology, University of Illinois Chicago, Chicago, IL, 60607"
 email: "ashah282@uic.edu"
-phone: 312-839-5619
+phone: 773-222-5619
 fax: 226-589-5000
 www: asshah4.github.io
 github: asshah4
@@ -23,19 +23,19 @@ library(readr)
 
 # All data
 entries <- read_csv("entries.csv")
-bib <- bibliography_entries("../bibliography/Publications.bib")
+bib <- bibliography_entries("../bibliography/publications.bib")
 ```
 
-Cardiology fellow with an interest in autonomic dysfunction, heart rate variability, epidemiology, biostatistics, and point-of-care ultrasonography.
+Cardiology fellow with a clinical interest in neural regulation of cardiac physiology and cardiac electrophysiology, and a research interest in epidemiology/causality, harmonic regressions, recurrent event analysis, and digital signal processing. 
 
 # Academic Qualifications and Positions
 
 ## Education
 
 ```{r education}
-entries %>%
-	filter(section == "education") %>%
-	arrange(start) %>%
+entries |>
+	filter(section == "education") |>
+	arrange(start) |>
 	detailed_entries(
 		when = glue("{start}--{end}"),
 		what = title,
@@ -47,9 +47,9 @@ entries %>%
 ## Clinical Training
 
 ```{r training}
-entries %>%
-	filter(section == "training") %>%
-	arrange(start) %>%
+entries |>
+	filter(section == "training") |>
+	arrange(start) |>
 	detailed_entries(
 		when = glue("{start}--{end}"),
 		what = title,
@@ -61,9 +61,9 @@ entries %>%
 ## Academic Appointments
 
 ```{r appts}
-entries %>%
-	filter(section == "appointments") %>%
-	arrange(desc(start)) %>%
+entries |>
+	filter(section == "appointments") |>
+	arrange(desc(start)) |>
 	detailed_entries(
 		when = glue("{start}--{end}"),
 		what = title,
@@ -75,9 +75,9 @@ entries %>%
 # Honors and Awards
 
 ```{r awards}
-entries %>%
-	filter(section == "awards") %>%
-	arrange(desc(start)) %>%
+entries |>
+	filter(section == "awards") |>
+	arrange(desc(start)) |>
 	detailed_entries(
 		when = case_when(
 			is.na(end) ~ glue("{start}"),
@@ -92,9 +92,9 @@ entries %>%
 # Professional Memberships
 
 ```{r soc}
-entries %>%
-	filter(section == "societies") %>%
-	arrange(desc(start)) %>%
+entries |>
+	filter(section == "societies") |>
+	arrange(desc(start)) |>
 	detailed_entries(
 		when = case_when(
 			is.na(end) ~ glue("{start}"),
@@ -109,9 +109,9 @@ entries %>%
 ## Teaching Positions
 
 ```{r teaching}
-entries %>%
-	filter(section == "teaching") %>%
-	arrange(desc(start)) %>%
+entries |>
+	filter(section == "teaching") |>
+	arrange(desc(start)) |>
 	detailed_entries(
 		when = case_when(
 			is.na(end) ~ glue("{start}"),
@@ -126,9 +126,9 @@ entries %>%
 ## Lectures
 
 ```{r talks}
-entries %>%
-	filter(section == "talks") %>%
-	arrange(desc(start)) %>%
+entries |>
+	filter(section == "talks") |>
+	arrange(desc(start)) |>
 	detailed_entries(
 		when = case_when(
 			is.na(end) ~ glue("{start}"),
@@ -145,8 +145,8 @@ entries %>%
 ## Students
 
 ```{r studs}
-entries %>%
-	filter(section == "mentorship" & status == "student") %>%
+entries |>
+	filter(section == "mentorship" & status == "student") |>
 	detailed_entries(
 		where = institution,
 		why = description,
@@ -160,8 +160,8 @@ entries %>%
 ## Residents
 
 ```{r resi}
-entries %>%
-	filter(section == "mentorship" & status == "resident") %>%
+entries |>
+	filter(section == "mentorship" & status == "resident") |>
 	detailed_entries(
 		where = institution,
 		why = description,
@@ -175,8 +175,8 @@ entries %>%
 ## Research
 
 ```{r research}
-entries %>%
-	filter(section == "mentorship" & status == "research") %>%
+entries |>
+	filter(section == "mentorship" & status == "research") |>
 	detailed_entries(
 		where = institution,
 		why = description,
@@ -190,8 +190,8 @@ entries %>%
 # Skills 
 
 ```{r lang}
-entries %>%
-	filter(section == "skills") %>%
+entries |>
+	filter(section == "skills") |>
 	detailed_entries(
 		what = title,
 		why = description
@@ -203,8 +203,8 @@ entries %>%
 ## Professional
 
 ```{r pro certs}
-entries %>%
-	filter(section == "certifications" & status == "professional") %>%
+entries |>
+	filter(section == "certifications" & status == "professional") |>
 	detailed_entries(
 		what = title,
 		when = case_when(
@@ -217,8 +217,8 @@ entries %>%
 ## Personal
 
 ```{r per certs}
-entries %>%
-	filter(section == "certifications" & status == "personal") %>%
+entries |>
+	filter(section == "certifications" & status == "personal") |>
 	detailed_entries(
 		what = title,
 		when = case_when(
@@ -233,9 +233,9 @@ entries %>%
 ## Grant Funding
 
 ```{r}
-entries %>%
-	filter(section == "grants") %>%
-	arrange(desc(start)) %>%
+entries |>
+	filter(section == "grants") |>
+	arrange(desc(start)) |>
 	detailed_entries(
 		when = case_when(
 			is.na(end) ~ glue("{start}"),
@@ -251,26 +251,26 @@ entries %>%
 ## Conferences
 
 ```{r conferences}
-bib %>%
-	filter(type == "paper-conference") %>%
-	arrange(issued) %>%
-	select(-c(volume, issue, abstract, URL, DOI, ISSN, page, keyword, PMID))
+bib |>
+	filter(type == "paper-conference") |>
+	arrange(issued) |>
+	select(-c(volume, issued, abstract, URL, DOI, ISSN, page, keyword, PMID))
 ```
 
 ## Software
 
 ```{r packages}
-bib %>%
-	filter(type == "no-type") %>%
-	arrange(issued) %>%
-	select(-c(volume, issue, abstract, DOI, ISSN, page, keyword, PMID, `container-title`))
+bib |>
+	filter(type == "no-type") |>
+	arrange(issued) |>
+	select(-c(volume, issued, abstract, DOI, ISSN, page, keyword, PMID, `container-title`))
 ```
 
 ## Publications
 
 ```{r pubs}
-bib %>%
-	filter(type == "article-journal") %>%
-	arrange(issued) %>%
-	select(-c(issue, ISSN, publisher, page, keyword, PMID, `publisher-place`))
+bib |>
+	filter(type == "article-journal") |>
+	arrange(issued) |>
+	select(-c(issued, ISSN, publisher, page, keyword, PMID))
 ```
