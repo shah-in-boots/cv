@@ -260,8 +260,9 @@ bib |>
 ## Software
 
 ```{r packages}
+# Artifically using "book" for "computer_program"
 bib |>
-	filter(type == "no-type") |>
+	filter(type == "book") |>
 	arrange(issued) |>
 	select(-c(volume, issued, abstract, DOI, ISSN, page, keyword, PMID, `container-title`))
 ```
