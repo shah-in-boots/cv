@@ -26,7 +26,7 @@ entries <- read_csv("entries.csv")
 bib <- bibliography_entries("../bibliography/publications.bib")
 ```
 
-Cardiology fellow with a clinical interest in neural regulation of cardiac physiology and cardiac electrophysiology, and a research interest in epidemiology/causality, harmonic regressions, recurrent event analysis, and digital signal processing. 
+Cardiology fellow with a clinical interest in neural regulation of cardiac physiology and cardiac electrophysiology, and a research interest in epidemiology/causality, harmonic regressions, recurrent event analysis, and digital signal processing.
 
 # Academic Qualifications and Positions
 
@@ -187,7 +187,7 @@ entries |>
 	)
 ```
 
-# Skills 
+# Skills
 
 ```{r lang}
 entries |>
@@ -254,7 +254,7 @@ entries |>
 bib |>
 	filter(type == "paper-conference") |>
 	arrange(issued) |>
-	select(-c(volume, issued, abstract, URL, DOI, ISSN, page, keyword, PMID))
+	select(-c(volume, issued, abstract, URL, DOI, ISSN, page, keyword))
 ```
 
 ## Software
@@ -264,7 +264,7 @@ bib |>
 bib |>
 	filter(type == "book") |>
 	arrange(issued) |>
-	select(-c(volume, issued, abstract, DOI, ISSN, page, keyword, PMID, `container-title`))
+	select(-c(volume, issued, abstract, DOI, ISSN, page, keyword, `container-title`))
 ```
 
 ## Publications
@@ -273,5 +273,5 @@ bib |>
 bib |>
 	filter(type == "article-journal") |>
 	arrange(issued) |>
-	select(-c(issued, ISSN, publisher, page, keyword, PMID))
+	select(-c(issued, ISSN, publisher, page, keyword))
 ```
