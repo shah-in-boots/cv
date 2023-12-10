@@ -21,9 +21,11 @@ library(dplyr)
 library(glue)
 library(readr)
 
-# All data
+# Resume data
 entries <- read_csv("entries.csv")
-bib <- bibliography_entries("../bibliography/publications.bib")
+
+# Biblatex format
+bib <- bibliography_entries("../bibliography/publications.bib") 
 ```
 
 Cardiology fellow with a clinical interest in neural regulation of cardiac physiology and cardiac electrophysiology, and a research interest in epidemiology/causality, harmonic regressions, recurrent event analysis, and digital signal processing.
@@ -254,17 +256,16 @@ entries |>
 bib |>
 	filter(type == "paper-conference") |>
 	arrange(issued) |>
-	select(-c(volume, issued, abstract, URL, DOI, ISSN, page, keyword))
+	select(-c(volume, abstract, URL, DOI, ISSN, page, keyword))
 ```
 
 ## Software
 
 ```{r packages}
-# Artifically using "book" for "computer_program"
 bib |>
-	filter(type == "book") |>
+	filter(type == "software") |>
 	arrange(issued) |>
-	select(-c(volume, issued, abstract, DOI, ISSN, page, keyword, `container-title`))
+	select(-c(volume, abstract, DOI, ISSN, page, keyword, `container-title`))
 ```
 
 ## Publications
@@ -273,5 +274,5 @@ bib |>
 bib |>
 	filter(type == "article-journal") |>
 	arrange(issued) |>
-	select(-c(issued, ISSN, publisher, page, keyword))
+	select(-c(ISSN, publisher, page, keyword))
 ```
