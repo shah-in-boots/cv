@@ -32,8 +32,7 @@ Atlanta, Georgia 30303
 
 _Home_
 
-1568 Lenox Overlook Road  
-Brookhaven, GA 30329  
+***
 
 ### Contact
 
@@ -41,7 +40,7 @@ _E-mail_: asshah4@emory.edu
 
 _Phone_: ...
 
-_Fax_: 226-589-5000
+_Fax_: ***
 
 ### Citizenship
 
