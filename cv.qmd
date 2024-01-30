@@ -10,9 +10,9 @@ format:
 
 ::: {.content-visible when-format='docx'}
 Anish S. Shah, MD, MS  
-Cell: 469-835-7606  
-Pager: 773-222-5619   
-Fax: 226-589-5000  
+Cell: ***
+Pager: *** 
+Fax: ***
 ORCID ID: [0000-0002-9729-1558](https://orcid.org/0000-0002-9729-1558)  
 E-mail: [ashah282@uic.edu](mailto:ashah282@uic.edu)
 :::
