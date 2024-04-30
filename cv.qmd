@@ -1,17 +1,30 @@
 ---
-layout: cv
+title: Curriculum Vitae
+date: 2024-01-09
+date-format: full
+format:
+  html: default
+  docx:
+    notes-after-punctuation: true
 ---
 
-# Anish Shah
-<div id="webaddress">
-<a href="mailto:asshah4@emory.edu">asshah4@emory.edu</a>
-|
-<i class="fa fa-github"></i> <a href="http://asshah4.github.io">asshah4</a>
-|
-<i class="fa fa-twitter"></i> <a href="http://twitter.com/shah_in_boots">Twitter</a>
-</div>
+::: {.content-visible when-format='docx'}
+Anish S. Shah, MD, MS  
+Cell: ***
+Pager: *** 
+Fax: ***
+ORCID ID: [0000-0002-9729-1558](https://orcid.org/0000-0002-9729-1558)  
+E-mail: [ashah282@uic.edu](mailto:ashah282@uic.edu)
+:::
 
-Resident physician with an interest in autonomic dysfunction, heart rate variability, epidemiology, biostatistics, and point-of-care ultrasonography.
+::: {.content-visible when-format='html'}
+Anish S. Shah, MD, MS  
+[{{< fa envelope >}}](mailto:ashah282@uic.edu) | 
+[{{< fa brands github >}}](https://github.com/asshah4) | 
+[{{< fa brands orcid >}}](https://orcid.org/0000-0002-9729-1558) | 
+[{{< fa brands google >}}](https://scholar.google.com/citations?hl=en&user=jFGiIJMAAAAJ) | 
+[{{< fa globe >}}](https://asshah4.github.io)  
+:::
 
 ## Personal information
 
@@ -19,28 +32,23 @@ Resident physician with an interest in autonomic dysfunction, heart rate variabi
 
 _Office_
 
-Emory University School of Medicine  
-Department of Medicine  
-1648 Pierce Drive NE  
-Atlanta, GA 30307  
+University of Illinois Chicago
+Division of Cardiology
+840 S Wood St
+Suite 920, M/C 715
+Chicago, IL 60612
 
 _Clinic_
 
-80 Jesse Hill Jr. Dr SE  
-Suite 491  
-Atlanta, Georgia 30303  
+Jesse Brown VA Medical Center
+820 S. Damen Avenue
+Specialty Clinic, 2nd Floor, Damen Tower
+Chicago, IL 60612
 
 _Home_
 
-***
-
-### Contact
-
-_E-mail_: asshah4@emory.edu
-
-_Phone_: ...
-
-_Fax_: ***
+2810 W. Walton St
+Chicago, IL 60622
 
 ### Citizenship
 
@@ -186,33 +194,16 @@ _Ultrasound Workshop: Cardiac, IVC, Lung, Abdominal Views_
 `2018` 
 Southern Hospital Medicine Conference  
 _"8 Minutes-to-Win-It": Top Inpatient Teaching Sessions by Soon-To-Be-Leaders_  
-  
 
 ### Supervisory Roles
 
 __Students__:   
 Julie Sommer, PA-S - April 2017 to August 2018  
-John Ward, M3 - January 2018  
-Deema Elchoufi, M3 - April 2018  
-Hugo Cavalia, M4 - July 2018  
-Brian Mott, M3 - August 2018  
-Anna Coronata, M3 - December 2018  
-Eli Mlaver, M3 - December 2018  
 Grace Helen Frankel, PA-S - February 2019 to June 2019  
 
 __Interns__:   
-Rebecca Engels - January 2018  
-Mangala Patil - January 2018  
-Rebecca Neustein - April 2018  
-Kate Measom - April 2018  
-Kevin Luk - August 2018  
-Eric Yao - August 2018  
 Ross Bittman - November 2018 (Bite-sized Teaching Mode Conference Coach)  
-Samuel Huxley - December 2018  
-Ross Bittman - December 2018  
 Arjun Athreya - January 2019 (Bite-sized Teaching Mode Conference Coach)  
-Lakshmi Katta - April 2019  
-Ryan Brown - April 2019  
 
 ## Professional Memberships
 
