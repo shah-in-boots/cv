@@ -61,26 +61,112 @@ lightbox: true
 [{{< fa globe >}}](https://shah-in-boots.github.io)  
 :::
 
+Last updated: `r format(Sys.Date(), "%B %d, %Y")`
+
 ## Personal information
 
 ### Physical address
 
 _Office_
 
-University of Illinois Chicago
-Division of Cardiology
-840 S Wood St
-Suite 920, M/C 715
-Chicago, IL 60612
+University of Illinois Chicago  
+Division of Cardiology  
+840 S Wood St  
+Suite 920, M/C 715  
+Chicago, IL 60612  
 
 _Clinic_
 
-Jesse Brown VA Medical Center
-820 S. Damen Avenue
-Specialty Clinic, 2nd Floor, Damen Tower
-Chicago, IL 60612
+Jesse Brown VA Medical Center  
+820 S. Damen Avenue  
+Specialty Clinic, 2nd Floor, Damen Tower  
+Chicago, IL 60612  
 
 ### Citizenship
 
 United States of America
 
+## Training
+
+### Academic Training
+
+### Postdoctoral Training
+
+## Appointments
+
+### Academic Appointments
+
+### Clinical Appointments
+
+## Professional Activities
+
+### Professional Societies
+
+### Service
+
+Manuscript reviews
+
+## Teaching and Mentoring
+
+### Courses and Workshops
+
+### Mentorship
+
+### Lectures
+
+## Invited Presentations
+
+### Regional
+
+### National
+
+### International
+
+- Academic mentorship
+- Student would identify as a mentee
+
+## Funding Support
+
+## Honors and Awards
+
+### Institutional/Regional
+
+### National
+
+### International
+
+## Skills
+
+### Clinical Skills
+
+### Languages
+
+### Technical Skills
+
+### Certifications
+
+## Conference Presentations
+
+### Regional
+
+### National
+
+### International
+
+
+## Bibliography
+
+### Peer-Reviewed Publications
+
+- Bold faculty name
+- Asterisk by mentee name
+
+### Manuscripts Accepted for Publication
+
+### Manuscripts Submitted for Publication
+
+### Books and Book Chapters
+
+### Software 
+
+### Case Reports
