@@ -22,8 +22,24 @@ format:
         \usepackage{wrapfig}
         \usepackage{libertine}
         \pagestyle{empty}
+        
 lightbox: true
+
+engine: knitr
+
+execute:
+  echo: false
 ---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(flextable)
+entries <- read_csv("entries.csv")
+
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+```
 
 <!-- Title -->
 
@@ -63,6 +79,8 @@ lightbox: true
 
 Last updated: `r format(Sys.Date(), "%B %d, %Y")`
 
+---
+
 ## Personal information
 
 ### Physical address
@@ -86,9 +104,50 @@ Chicago, IL 60612
 
 United States of America
 
-## Training
+## Education
 
 ### Academic Training
+
+```{r}
+#| label: education
+
+# Load the CSV file
+entries <- read_csv("entries.csv")
+
+# Filter and display the education section
+education <- entries |>
+  filter(section == "education") |>
+  select(start, end, title, institution, description) |>
+  mutate(period = if_else(start == end, as.character(start), paste(start, "-", end))) |>
+  replace_na(list(start = "", end = "", title = "", institution = "", description = "", period = ""))
+
+# Conditionally render based on the output format
+if (knitr::is_latex_output()) {
+  # LaTeX table for PDF output
+  kable(education |>
+          select(period, title, institution, description),
+        format = "latex", booktabs = TRUE, escape = FALSE, col.names = c("Period", "Degree", "Institution", "Description")) |>
+    kable_styling(latex_options = c("striped", "hold_position", "scale_down")) |>
+    column_spec(1, bold = TRUE) |>
+    column_spec(2, width = "3cm") |>
+    column_spec(3, width = "4cm") |>
+    column_spec(4, width = "7cm")
+} else if (knitr::pandoc_to("html")) {
+  # HTML table for HTML output
+  kable(education |>
+          select(period, title, institution, description),
+        format = "html", table.attr = "class='table table-striped'", col.names = c("Period", "Degree", "Institution", "Description")) |>
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+} else if (knitr::pandoc_to("docx")) {
+  # Flextable for Word output
+  flextable(education |>
+              select(period, title, institution, description)) |>
+    set_header_labels(period = "Period", title = "Degree", institution = "Institution", description = "Description") |>
+    theme_vanilla() |>
+    autofit()
+}
+
+```
 
 ### Postdoctoral Training
 
