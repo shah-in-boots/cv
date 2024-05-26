@@ -1,63 +1,22 @@
 ---
+author: Anish S. Shah, MD, MS
 format: 
-  html:
-    theme:
-      - colors.scss
-  docx:
-    notes-after-punctuation: true
-    reference-doc: reference.docx
-  pdf: 
+  html: default
+  pdf:
     pdf-engine: weasyprint
-
+css: format.css
 lightbox: true
-
 engine: knitr
-
-execute:
-  echo: false
 ---
-
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(warning = FALSE, message = FALSE)
-
-# Libraries
-library(tidyverse)
-library(knitr)
-library(kableExtra)
-library(gt)
-library(glue)
-
-# Dataset to use
-dat <- read_csv("entries.csv") 
-```
-
-
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(warning = FALSE, message = FALSE)
-
-# Libraries
-library(tidyverse)
-library(knitr)
-library(kableExtra)
-library(gt)
-library(glue)
-
-# Dataset to use
-dat <- read_csv("entries.csv") 
-```
 
 # Anish S. Shah, MD, MS 
 
-[{{< fa envelope >}}](mailto:ashah282@uic.edu) $\bullet$
-[{{< fa brands github >}}](https://github.com/shah-in-boots) $\bullet$
-[{{< fa brands orcid >}}](https://orcid.org/0000-0002-9729-1558) $\bullet$
-[{{< fa brands google >}}](https://scholar.google.com/citations?hl=en&user=jFGiIJMAAAAJ) $\bullet$
-[{{< fa globe >}}](https://shah-in-boots.github.io)  
-:::
-
-Last updated: `r format(Sys.Date(), "%B %d, %Y")`
+[E-mail](mailto:ashah282@uic.edu) $\bullet$
+[Website](https://shah-in-boots.github.io) $\bullet$
+[Github](https://github.com/shah-in-boots) $\bullet$
+[ORCID](https://orcid.org/0000-0002-9729-1558) $\bullet$
+[Scholar](https://scholar.google.com/citations?hl=en&user=jFGiIJMAAAAJ) $\bullet$
+Updated `r format(Sys.Date(), "%B %d, %Y")`
 
 ## Personal information
 
@@ -86,41 +45,11 @@ United States of America
 
 ### Academic Training
 
-```{r}
-education <-
-  dat |>
-  filter(section == "education") |>
-  arrange(desc(end)) |>
-  mutate(
-    period = if_else(start == end, as.character(start), paste(start, "-", end)),
-  ) |>
-  select(period, title, institution, title, location, description) 
+**Bachelor of Science** -- Linguistics | Neuroscience [2007 -- 2011]{.cvdate}  
+*Emory University College of Arts and Sciences, Atlanta, Georgia*  
 
-# GT table without a header
-# Merges in the title and description on separate lines
-educationTable <-
-	gt(education) |>
-  cols_merge(columns = c(title, description), pattern = "{1} {2}") |>
-  cols_merge(columns = c(institution, location), pattern = "{1} {2}") |>
-  sub_missing(missing_text = "") |>
-  fmt_markdown() |>
-	tab_style(style = cell_text(size = "small"),
-						locations = cells_body(columns = "institution")) |>
-  tab_options(
-    column_labels.hidden = TRUE,
-    table.font.names = "Times New Roman",
-    table.width = pct(100),
-    data_row.padding = px(10),
-    table.border.top.color = "white",
-    table.border.bottom.color = "white",
-    table.border.left.color = "white",
-    table.border.right.color = "white"
-  ) |>
-  cols_width(
-    period ~ pct(15),
-    title ~ pct(50),
-    institution ~ pct(35)
-  ) 
+**Doctor of Medicine** [2012 -- 2016]{.cvdate}  
+*Texas A&M University College of Medicine, College Station, Texas*  
 
-educationTable
-```
+**Master of Science** -- Clinical Research [2019 -- 2020]{.cvdate}  
+*Emory University Laney Graduate School, Atlanta, Georgia*  
