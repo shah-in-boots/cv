@@ -1,28 +1,14 @@
 ---
-format:
-  html: default
+format: 
+  html:
+    theme:
+      - colors.scss
   docx:
     notes-after-punctuation: true
-  pdf:
-    documentclass: article
-    geometry:
-      - top=10mm
-      - left=10mm
-      - right=10mm
-      - bottom=10mm
-      - heightrounded
-    fontfamily: libertine
-    colorlinks: true
-    fontsize: "16"
-    include-in-header:
-      text: |
-        \usepackage{multicol}
-        \usepackage{lipsum}
-        \usepackage{hyperref}
-        \usepackage{wrapfig}
-        \usepackage{libertine}
-        \pagestyle{empty}
-        
+    reference-doc: reference.docx
+  pdf: 
+    pdf-engine: weasyprint
+
 lightbox: true
 
 engine: knitr
@@ -31,44 +17,37 @@ execute:
   echo: false
 ---
 
+
 ```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+
+# Libraries
 library(tidyverse)
 library(knitr)
+library(kableExtra)
 library(gt)
 library(glue)
 
-entries <- read_csv("entries.csv")
-
-knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+# Dataset to use
+dat <- read_csv("entries.csv") 
 ```
 
-<!-- Title -->
 
-::: {.content-visible when-format="pdf"}
-\begin{huge}\begin{center}{\bf Anish S. Shah, MD, MS}\end{center}\end{huge}
 
-\begin{center}
-\href{mailto:ashah282@uic.edu}{E-mail} $\bullet$
-\href{https:/shah-in-boots.github.io}{Website} $\bullet$
-\href{https:/github.com/shah-in-boots}{Github} $\bullet$
-\href{https://orcid.org/0000-0002-9729-1558}{ORCID} $\bullet$
-\href{https://scholar.google.com/citations?hl=en&user=jFGiIJMAAAAJ}{Scholar}
-\end{center}
-:::
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
-::: {.content-visible when-format="docx"}
+# Libraries
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(gt)
+library(glue)
 
-# Anish S. Shah, MD, MS 
+# Dataset to use
+dat <- read_csv("entries.csv") 
+```
 
-[E-mail](mailto:ashah282@uic.edu) $\bullet$
-[Website](https://shah-in-boots.github.io) $\bullet$
-[Github](https://github.com/shah-in-boots) $\bullet$
-[ORCID](https://orcid.org/0000-0002-9729-1558) $\bullet$
-[Scholar](https://scholar.google.com/citations?hl=en&user=jFGiIJMAAAAJ)
-
-:::
-
-::: {.content-visible when-format="html"}
 # Anish S. Shah, MD, MS 
 
 [{{< fa envelope >}}](mailto:ashah282@uic.edu) $\bullet$
@@ -79,8 +58,6 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 :::
 
 Last updated: `r format(Sys.Date(), "%B %d, %Y")`
-
----
 
 ## Personal information
 
@@ -110,36 +87,22 @@ United States of America
 ### Academic Training
 
 ```{r}
-#| label: education
-
-# Filter and format the education section
 education <-
-  entries |>
+  dat |>
   filter(section == "education") |>
   arrange(desc(end)) |>
   mutate(
     period = if_else(start == end, as.character(start), paste(start, "-", end)),
   ) |>
-  select(period, title, institution, title, location, description) |>
-  # Bold the main degrees
-  mutate(title = paste0("__", title, "__")) |>
-  # Combine multiple or duplicate descriptions
-	# Make them italic
-  group_by(title) |>
-  mutate(description = if_else(
-    !is.na(description),
-    paste0("*", description, "*", collapse = "<br>"),
-    description
-  )) |>
-  distinct() |>
-  ungroup()
+  select(period, title, institution, title, location, description) 
 
 # GT table without a header
 # Merges in the title and description on separate lines
-gt(education) |>
+educationTable <-
+	gt(education) |>
   cols_merge(columns = c(title, description), pattern = "{1} {2}") |>
   cols_merge(columns = c(institution, location), pattern = "{1} {2}") |>
-  fmt_missing(missing_text = "") |>
+  sub_missing(missing_text = "") |>
   fmt_markdown() |>
 	tab_style(style = cell_text(size = "small"),
 						locations = cells_body(columns = "institution")) |>
@@ -157,88 +120,7 @@ gt(education) |>
     period ~ pct(15),
     title ~ pct(50),
     institution ~ pct(35)
-  )
+  ) 
+
+educationTable
 ```
-
-
-
-### Postdoctoral Training
-
-## Appointments
-
-### Academic Appointments
-
-### Clinical Appointments
-
-## Professional Activities
-
-### Professional Societies
-
-### Service
-
-Manuscript reviews
-
-## Teaching and Mentoring
-
-### Courses and Workshops
-
-### Mentorship
-
-### Lectures
-
-## Invited Presentations
-
-### Regional
-
-### National
-
-### International
-
-- Academic mentorship
-- Student would identify as a mentee
-
-## Funding Support
-
-## Honors and Awards
-
-### Institutional/Regional
-
-### National
-
-### International
-
-## Skills
-
-### Clinical Skills
-
-### Languages
-
-### Technical Skills
-
-### Certifications
-
-## Conference Presentations
-
-### Regional
-
-### National
-
-### International
-
-
-## Bibliography
-
-### Peer-Reviewed Publications
-
-- Bold faculty name
-- Asterisk by mentee name
-
-### Manuscripts Accepted for Publication
-
-### Manuscripts Submitted for Publication
-
-### Books and Book Chapters
-
-### Software 
-
-### Case Reports

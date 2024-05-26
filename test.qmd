@@ -1,0 +1,246 @@
+---
+format:
+  html: default
+  docx:
+    notes-after-punctuation: true
+  pdf:
+    documentclass: article
+    geometry:
+      - top=10mm
+      - left=10mm
+      - right=10mm
+      - bottom=10mm
+      - heightrounded
+    fontfamily: libertine
+    colorlinks: true
+    fontsize: "16"
+    include-in-header:
+      text: |
+        \usepackage{multicol}
+        \usepackage{lipsum}
+        \usepackage{hyperref}
+        \usepackage{wrapfig}
+        \usepackage{libertine}
+        \pagestyle{empty}
+        
+lightbox: true
+
+engine: knitr
+
+execute:
+  echo: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+
+# Libraries
+library(tidyverse)
+library(knitr)
+library(gt)
+library(glue)
+
+# Dataset to use
+dat <- read_csv("entries.csv")
+```
+
+<!-- Title -->
+
+::: {.content-visible when-format="pdf"}
+\begin{huge}\begin{center}{\bf Anish S. Shah, MD, MS}\end{center}\end{huge}
+
+\begin{center}
+\href{mailto:ashah282@uic.edu}{E-mail} $\bullet$
+\href{https:/shah-in-boots.github.io}{Website} $\bullet$
+\href{https:/github.com/shah-in-boots}{Github} $\bullet$
+\href{https://orcid.org/0000-0002-9729-1558}{ORCID} $\bullet$
+\href{https://scholar.google.com/citations?hl=en&user=jFGiIJMAAAAJ}{Scholar}
+\end{center}
+:::
+
+::: {.content-visible when-format="docx"}
+
+# Anish S. Shah, MD, MS 
+
+[E-mail](mailto:ashah282@uic.edu) $\bullet$
+[Website](https://shah-in-boots.github.io) $\bullet$
+[Github](https://github.com/shah-in-boots) $\bullet$
+[ORCID](https://orcid.org/0000-0002-9729-1558) $\bullet$
+[Scholar](https://scholar.google.com/citations?hl=en&user=jFGiIJMAAAAJ)
+
+:::
+
+::: {.content-visible when-format="html"}
+# Anish S. Shah, MD, MS 
+
+[{{< fa envelope >}}](mailto:ashah282@uic.edu) $\bullet$
+[{{< fa brands github >}}](https://github.com/shah-in-boots) $\bullet$
+[{{< fa brands orcid >}}](https://orcid.org/0000-0002-9729-1558) $\bullet$
+[{{< fa brands google >}}](https://scholar.google.com/citations?hl=en&user=jFGiIJMAAAAJ) $\bullet$
+[{{< fa globe >}}](https://shah-in-boots.github.io)  
+:::
+
+Last updated: `r format(Sys.Date(), "%B %d, %Y")`
+
+---
+
+## Personal information
+
+### Physical address
+
+_Office_
+
+University of Illinois Chicago  
+Division of Cardiology  
+840 S Wood St  
+Suite 920, M/C 715  
+Chicago, IL 60612  
+
+_Clinic_
+
+Jesse Brown VA Medical Center  
+820 S. Damen Avenue  
+Specialty Clinic, 2nd Floor, Damen Tower  
+Chicago, IL 60612  
+
+### Citizenship
+
+United States of America
+
+## Education
+
+### Academic Training
+
+```{r}
+#| label: education
+
+# Filter and format the education section
+education <-
+  dat |>
+  filter(section == "education") |>
+  arrange(desc(end)) |>
+  mutate(
+    period = if_else(start == end, as.character(start), paste(start, "-", end)),
+  ) |>
+  select(period, title, institution, title, location, description) |>
+  # Bold the main degrees
+  mutate(title = paste0("__", title, "__")) |>
+  # Combine multiple or duplicate descriptions
+	# Make them italic
+  group_by(title) |>
+  mutate(description = if_else(
+    !is.na(description),
+    paste0("*", description, "*", collapse = "<br>"),
+    description
+  )) |>
+  distinct() |>
+  ungroup()
+
+# GT table without a header
+# Merges in the title and description on separate lines
+gt(education) |>
+  cols_merge(columns = c(title, description), pattern = "{1} {2}") |>
+  cols_merge(columns = c(institution, location), pattern = "{1} {2}") |>
+  sub_missing(missing_text = "") |>
+  fmt_markdown() |>
+	tab_style(style = cell_text(size = "small"),
+						locations = cells_body(columns = "institution")) |>
+  tab_options(
+    column_labels.hidden = TRUE,
+    table.font.names = "Times New Roman",
+    table.width = pct(100),
+    data_row.padding = px(10),
+    table.border.top.color = "white",
+    table.border.bottom.color = "white",
+    table.border.left.color = "white",
+    table.border.right.color = "white"
+  ) |>
+  cols_width(
+    period ~ pct(15),
+    title ~ pct(50),
+    institution ~ pct(35)
+  ) 
+```
+
+
+
+### Postdoctoral Training
+
+## Appointments
+
+### Academic Appointments
+
+### Clinical Appointments
+
+## Professional Activities
+
+### Professional Societies
+
+### Service
+
+Manuscript reviews
+
+## Teaching and Mentoring
+
+### Courses and Workshops
+
+### Mentorship
+
+### Lectures
+
+## Invited Presentations
+
+### Regional
+
+### National
+
+### International
+
+- Academic mentorship
+- Student would identify as a mentee
+
+## Funding Support
+
+## Honors and Awards
+
+### Institutional/Regional
+
+### National
+
+### International
+
+## Skills
+
+### Clinical Skills
+
+### Languages
+
+### Technical Skills
+
+### Certifications
+
+## Conference Presentations
+
+### Regional
+
+### National
+
+### International
+
+
+## Bibliography
+
+### Peer-Reviewed Publications
+
+- Bold faculty name
+- Asterisk by mentee name
+
+### Manuscripts Accepted for Publication
+
+### Manuscripts Submitted for Publication
+
+### Books and Book Chapters
+
+### Software 
+
+### Case Reports
