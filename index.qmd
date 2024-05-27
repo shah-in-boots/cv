@@ -3,7 +3,9 @@ format:
   html: default
   pdf:
     pdf-engine: weasyprint
-css: theme.css
+css:
+  - format-cv.css
+  - colors.scss
 format-links: [pdf]
 lightbox: true
 
@@ -25,16 +27,16 @@ library(xtable)
 dat <- read_csv("entries.csv")
 ```
 
+::: {.center}
 # Anish S. Shah, MD, MS
 
-[
 [E-mail](mailto:ashah282@uic.edu) $\bullet$
 [Website](https://shah-in-boots.github.io) $\bullet$
 [Github](https://github.com/shah-in-boots) $\bullet$
 [ORCID](https://orcid.org/0000-0002-9729-1558) $\bullet$
 [Scholar](https://scholar.google.com/citations?hl=en&user=jFGiIJMAAAAJ)  
 *Updated `r format(Sys.Date(), "%B %d, %Y")`*
-]{.center}
+:::
 
 ## Personal information
 
