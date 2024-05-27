@@ -61,6 +61,16 @@ from: https://github.com/quarto-dev/quarto-cli/discussions/2538#discussioncommen
     text-transform: capitalize;
   }
 
+  h1 {
+    font-size: 2em;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+    margin-block-end: 0em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+
   h2 {
     font-weight: 900;
     text-transform: uppercase;
@@ -77,13 +87,25 @@ from: https://github.com/quarto-dev/quarto-cli/discussions/2538#discussioncommen
     font-size: small;
   }
 
+  ul {
+    list-style: none;
+    padding-left: 1.0em;
+  }
+
   ul li{
     font-size: smaller;
+  }
+
+  ul li::before {
+    content: "\27A4";
+    color: #a01813;
+    position: absolute;
+    left: 0;
   }
 
   a {
     text-decoration: none;
     font-weight: 700;
-    color: #36a7e9;
+    color: #a01813;
   }
 }

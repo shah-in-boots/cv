@@ -1,27 +1,47 @@
 ---
-author: Anish S. Shah, MD, MS
 format: 
   html: default
   pdf:
     pdf-engine: weasyprint
-css: format.css
+css: theme.css
+format-links: [pdf]
 lightbox: true
-engine: knitr
+
+execute:
+  echo: false
 ---
 
-# Anish S. Shah, MD, MS 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
+# Libraries
+library(tidyverse)
+library(knitr)
+library(gt)
+library(glue)
+library(xtable)
+
+# Dataset to use
+dat <- read_csv("entries.csv")
+```
+
+# Anish S. Shah, MD, MS
+
+[
 [E-mail](mailto:ashah282@uic.edu) $\bullet$
 [Website](https://shah-in-boots.github.io) $\bullet$
 [Github](https://github.com/shah-in-boots) $\bullet$
 [ORCID](https://orcid.org/0000-0002-9729-1558) $\bullet$
-[Scholar](https://scholar.google.com/citations?hl=en&user=jFGiIJMAAAAJ) $\bullet$
-Updated `r format(Sys.Date(), "%B %d, %Y")`
+[Scholar](https://scholar.google.com/citations?hl=en&user=jFGiIJMAAAAJ)  
+*Updated `r format(Sys.Date(), "%B %d, %Y")`*
+]{.center}
 
 ## Personal information
 
 ### Physical address
 
+:::: {.columns}
+::: {.column width="50%"}
 _Office_
 
 University of Illinois Chicago  
@@ -29,13 +49,17 @@ Division of Cardiology
 840 S Wood St  
 Suite 920, M/C 715  
 Chicago, IL 60612  
-
+:::
+::: {.column width="50%"}
 _Clinic_
 
 Jesse Brown VA Medical Center  
 820 S. Damen Avenue  
 Specialty Clinic, 2nd Floor, Damen Tower  
 Chicago, IL 60612  
+:::
+::::
+
 
 ### Citizenship
 
@@ -46,10 +70,41 @@ United States of America
 ### Academic Training
 
 **Bachelor of Science** -- Linguistics | Neuroscience [2007 -- 2011]{.cvdate}  
-*Emory University College of Arts and Sciences, Atlanta, Georgia*  
+*Emory University College of Arts and Sciences*  
 
 **Doctor of Medicine** [2012 -- 2016]{.cvdate}  
-*Texas A&M University College of Medicine, College Station, Texas*  
+*Texas A&M University College of Medicine*  
 
 **Master of Science** -- Clinical Research [2019 -- 2020]{.cvdate}  
-*Emory University Laney Graduate School, Atlanta, Georgia*  
+*Emory University Laney Graduate School*  
+
+### Clinical Training
+
+**Residency** -- Internal Medicine [2016 -- 2019]{.cvdate}  
+*J. Willis Hurst Internal Medicine Residency, Emory University School of Medicine*  
+
+- Distinction in Teaching and Leadership
+
+**Fellowship** -- Cardiovascular Medicine [2020 -- 2024]{.cvdate}  
+*University of Illinois Chicago College of Medicine*
+
+- Physician-Scientist Track
+- Primary Mentor: Dawood Darbar, MD
+
+**Fellowship** -- Clinical Cardiac Electrophysiology [2024 -- 2026]{.cvdate}  
+*University of Utah School of Medicine*
+
+## Appointments
+
+**Postdoctoral Research Fellow** -- Epidemiology [2019 -- 2020]{.cvdate}  
+*Emory University Rollins School of Public Health*  
+
+- NIH-TL1 Scholar
+- Primary Mentor: Amit J. Shah, MD, MS
+
+**Assistant Professor of Medicine** -- Hospital Medicine [2019 -- 2020]{.cvdate}
+*Division of Hospital Medicine, Emory University School of Medicine*
+
+- Emory University Midtown Hospital
+- Grady Memorial Hospital
+
