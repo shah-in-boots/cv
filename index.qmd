@@ -1,12 +1,15 @@
 ---
 format: 
-  html: default
+  html:
+    toc: true 
   pdf:
+    author: Anish S. Shah
     pdf-engine: weasyprint
 css:
-  - format-cv.css
+  - format-cv.scss
   - colors.scss
 format-links: [pdf]
+
 lightbox: true
 
 execute:
