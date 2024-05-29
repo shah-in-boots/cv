@@ -1,6 +1,4 @@
 ---
-title: Curriculum Vitae
-
 format: 
   html:
     toc: true 
@@ -26,33 +24,55 @@ library(tidyverse)
 library(knitr)
 library(gt)
 library(glue)
-library(xtable)
 
 # Dataset to use
 dat <- read_csv("entries.csv")
 
 # Publications
 bib <-
-  vitae::bibliography_entries("../bibliography/publications.bib") |>
-  tibble::tibble() |>
-  dplyr::mutate(issued = as.Date(issued))
-
-bib <-
-  rmarkdown::pandoc_citeproc_convert("../bibliography/publications.bib", type = "json") |>
+  rmarkdown::pandoc_citeproc_convert("publications.bib", type = "json") |>
   jsonlite::fromJSON(simplifyVector = TRUE) |>
   tibble() |>
   mutate(issued = eval(str2lang(as.character(issued)))) |>
   unnest_wider(issued, names_sep = "_") |>
-  mutate(across(starts_with("issued_"), 
-                       ~ if_else(is.na(.x), 1, .x))) |>
+  mutate(across(
+    starts_with("issued_"),
+    ~ if_else(is.na(.x), 1, .x)
+  )) |>
   mutate(date = paste0(issued_1, "-", issued_2, "-", issued_3) |>
-                  as.Date()) |>
-  mutate(authors = map(author, function(.x) {
-    paste0(.x$family, ", ", .x$given) |>
+    as.Date()) |>
+  # Handle authorship, bolding for me and asterisk for by mentees
+  mutate(author = map(author, function(.d) {
+    .d |>
+      mutate(
+        initials =
+          str_extract_all(given, "\\b\\w") |>
+            sapply(paste, collapse = "")
+      )
+  })) |>
+  mutate(authors = map_chr(author, function(.x) {
+    paste0(.x$family, ", ", .x$initials) |>
       paste0(collapse = ", ")
   })) |>
-  select(-author, -starts_with("issued"))
-  
+  mutate(authors = gsub("Shah, AS", "**Shah, AS**", authors)) |>
+  select(
+    -author,
+    -starts_with("issued"),
+    -starts_with("accessed"),
+    -publisher,
+    -abstract,
+    -id,
+    -ISSN,
+    -keyword,
+    -starts_with("collection"),
+    -c("container-title-short")
+  ) |> 
+  arrange(date) |>
+  rename(short_title = 'title-short',
+         publication = 'container-title',
+         meeting = event,
+         location = 'event-place',
+         url = URL)
 ```
 
 ::: {.center}
@@ -145,7 +165,14 @@ United States of America
 
 ### Peer-Reviewed Publications
 
-```{r}
-bib |>
-  filter(type == "article-journal")
+```{r articles, results="asis"}
+articles <-
+  bib |>
+  filter(type == "article-journal") |>
+  mutate(numbers = case_when(
+    !is.na(issue) ~ paste0(volume, "(", issue, ")", ", ", page),
+    is.na(issue) ~ paste0(volume, ", ", page),
+  ))
+
+glue_data(articles, "1. {authors} ({year(date)}). {title}. {title} {numbers}.")
 ```
