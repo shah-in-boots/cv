@@ -30,6 +30,29 @@ library(xtable)
 
 # Dataset to use
 dat <- read_csv("entries.csv")
+
+# Publications
+bib <-
+  vitae::bibliography_entries("../bibliography/publications.bib") |>
+  tibble::tibble() |>
+  dplyr::mutate(issued = as.Date(issued))
+
+bib <-
+  rmarkdown::pandoc_citeproc_convert("../bibliography/publications.bib", type = "json") |>
+  jsonlite::fromJSON(simplifyVector = TRUE) |>
+  tibble() |>
+  mutate(issued = eval(str2lang(as.character(issued)))) |>
+  unnest_wider(issued, names_sep = "_") |>
+  mutate(across(starts_with("issued_"), 
+                       ~ if_else(is.na(.x), 1, .x))) |>
+  mutate(date = paste0(issued_1, "-", issued_2, "-", issued_3) |>
+                  as.Date()) |>
+  mutate(authors = map(author, function(.x) {
+    paste0(.x$family, ", ", .x$given) |>
+      paste0(collapse = ", ")
+  })) |>
+  select(-author, -starts_with("issued"))
+  
 ```
 
 ::: {.center}
@@ -115,3 +138,14 @@ United States of America
 - Emory University Midtown Hospital
 - Grady Memorial Hospital
 
+**Instructor of Medicine** [2020 -- 2024]{.cvdate}  
+*College of Medicine, University of Illinois Chicago*
+
+## Publications
+
+### Peer-Reviewed Publications
+
+```{r}
+bib |>
+  filter(type == "article-journal")
+```
