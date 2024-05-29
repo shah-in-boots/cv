@@ -32,9 +32,10 @@ dat <- read_csv("entries.csv")
 
 # Publications
 bib <-
-  rmarkdown::pandoc_citeproc_convert("publications.bib", type = "json") |>
+  rmarkdown::pandoc_citeproc_convert("../bibliography/publications.bib", type = "json") |>
   jsonlite::fromJSON(simplifyVector = TRUE) |>
   tibble() |>
+  janitor::clean_names() |>
   mutate(issued = eval(str2lang(as.character(issued)))) |>
   unnest_wider(issued, names_sep = "_") |>
   mutate(across(
@@ -57,25 +58,29 @@ bib <-
       paste0(collapse = ", ")
   })) |>
   mutate(authors = gsub("Shah, AS", "**Shah, AS**", authors)) |>
+  # Adjust publication locations and meeting locations
+  mutate(location = case_when(
+    !is.na(event_place) ~ event_place,
+    !is.na(publisher_place) ~ publisher_place,
+    TRUE ~ NA
+  )) |>
+  rename(journal = container_title,
+         journal_short = container_title_short,
+         meeting = event) |> 
   select(
     -author,
     -starts_with("issued"),
     -starts_with("accessed"),
-    -publisher,
     -abstract,
     -id,
-    -ISSN,
+    -issn,
     -keyword,
-    -starts_with("collection"),
-    -c("container-title-short")
+    -event_place,
+    -publisher_place,
+    -collection_title,
+    -language
   ) |> 
-  arrange(date) |>
-  rename(short_title = 'title-short',
-         publication = 'container-title',
-         meeting = event,
-         location = 'event-place',
-         url = URL,
-         doi = DOI)
+  arrange(date) 
 ```
 
 ::: {.center}
@@ -147,6 +152,12 @@ United States of America
 **Fellowship** -- Clinical Cardiac Electrophysiology [2024 -- 2026]{.cvdate}  
 *University of Utah School of Medicine*
 
+## Certification
+
+American Board of Internal Medicine Certification  
+Cardiology Boards
+Echo boards
+
 ## Appointments
 
 **Postdoctoral Research Fellow** -- Epidemiology [2019 -- 2020]{.cvdate}  
@@ -158,11 +169,129 @@ United States of America
 **Assistant Professor of Medicine** -- Hospital Medicine [2019 -- 2020]{.cvdate}
 *Division of Hospital Medicine, Emory University School of Medicine*
 
-- Emory University Midtown Hospital
-- Grady Memorial Hospital
+- Service Lines: Hospital Medicine, Procedure Service
+- Locations: Grady Memorial Hospital, Emory University Midtown Hospital
 
 **Instructor of Medicine** [2020 -- 2024]{.cvdate}  
 *College of Medicine, University of Illinois Chicago*
+
+
+## Honors and Awards
+
+### Local
+
+Delores B. Aldridge Excellence in Service to a Diverse Community Award [2009]{.cvdate}  
+*Emory University*
+
+Speaker to His Holiness the XIV Dalai Lama [2009]{.cvdate}  
+*Emory-Tibet Science Initiative* 
+
+- Selected to represent Emory students in a meeting with the 14th Dalai Lama in MacLeod Gange, India.
+
+Nu Rho Psi Honor Society [2009 -- 2011]{.cvdate}  
+*Emory University*
+
+College of Medicine Research Symposium [2015]{.cvdate}   
+*Texas A&M University* 
+
+- $1^{st}$ Place Oral Presentation
+
+### Regional
+
+Doctor’s Dilemma (Medical Jeopardy) [2017]{.cvdate}  
+*Georgia American College of Physician Conference*
+
+### National
+
+EMT-Basic National Competition [2007]{.cvdate}
+*Health Occupation Students of America*
+
+- $1^{st}$ Place
+
+Medical Student Research Program in Diabetes [2013]{.cvdate}  
+*National Institute of Diabetes and Digestive and Kidney Diseases*
+
+American Heart Association Scientific Sessions - Top Donors Meeting Presentation [2018]{.cvdate}  
+
+- Special invitation to discuss research with AHA leadership and top philanthropists
+	
+NIH-TL1 Postdoctoral Fellow [2019-2020]{.cvdate}  
+*Ruth L. Kirschtein National Research Service Award*
+
+NIH-T32 Postdoctoral Fellow [2019-2020]{.cvdate}  
+*Ruth L. Kirschtein National Research Service Award*
+
+NIH-F32 Postdoctoral Fellow [2021-2024]{.cvdate}  
+*Ruth L. Kirschtein National Research Service Award*
+
+### International
+
+Atrial Fibrillation Genetics Consortium Fellow [2023 -- 2024]{.cvdate}
+*Atrial Fibrillation Genetics Consortium*
+
+## Professional Activities
+
+### Professional Societies
+
+Texas Medical Association [2012 -- 2016]{.cvdate}  
+*Student Member*
+
+American College of Physicians [2012 -- Present]{.cvdate}  
+*Member*
+
+American Medical Aossciation [2012 -- Present]{.cvdate}   
+*Member*
+
+American Heart Association [2018 -- Present]{.cvdate}  
+*Fellow-In-Training*
+
+American College of Cardiology [2020 -- Present]{.cvdate}  
+*Fellow-In-Training*
+
+Heart Rhythm Society [2023 -- Present]{.cvdate}  
+*Fellow-In-Training*
+
+### Service
+
+BMJ Open Diabetes Research & Care [2019]{.cvdate}  
+*Ad-Hoc Reviewer*
+
+Journal of Electroconvulsive Therapy [2020]{.cvdate}  
+*Ad-Hoc Reviewer*
+
+Journal of Cardiovascular Electrophysiology [2021]{.cvdate}
+*Ad-Hoc Reviewer*
+
+BMJ Open [2021]{.cvdate}
+*Ad-Hoc Reviewer*
+
+Circulation: Arrhythmia and Electrophysiology [2023]{.cvdate}
+*Ad-Hoc Reviewer*
+
+Applied Psychophysiology and Biofeedback [2024]{.cvdate}  
+*Ad-Hoc Reviewer*
+
+BMC Global and Public Health [2024]{.cvdate}  
+*Ad-Hoc Reviewer*
+
+## Teaching and Mentoring
+
+### Courses and Workshops
+
+### Mentorship
+
+### Lectures
+
+## Invited Presentations
+
+### Regional
+
+### National
+
+### International
+
+- Academic mentorship
+- Student would identify as a mentee
 
 ## Publications
 
@@ -177,12 +306,32 @@ articles <-
     is.na(issue) ~ paste0(volume, ", ", page),
   ))
 
-glue_data(articles, "1. {authors} ({year(date)}). {title}. {title} {numbers}. DOI: {doi}")
+glue_data(articles, "1. {authors} ({year(date)}). {title}. {journal} {numbers}. doi:[{doi}](https://doi.org/{doi})")
+```
+
+### Working Manuscripts
+
+```{r manuscripts, results="asis"}
+manuscripts <-
+  bib |>
+  filter(type == "manuscript") 
+
+glue_data(manuscripts, "1. {authors} ({year(date)}). {title}.")
+```
+
+### Monographs
+
+```{r thesis, results="asis"}
+thesis <-
+  bib |>
+  filter(type == "thesis") 
+
+glue_data(thesis, "1. {authors} ({year(date)}). '{title}'. Master's Thesis. {publisher}. [{url}]({url})")
 ```
 
 ### Software
 
-```{r packages, results="asis"}
+```{r software, results="asis"}
 software <-
   bib |>
   filter(type == "software") |>
@@ -192,5 +341,19 @@ software <-
     title = sub("^Rmdl", "rmdl", title)
   )
 
-glue_data(software, "1. {authors} ({year(date)}). {title}, Version: {version}. {url}")
+glue_data(software, "1. {authors} ({year(date)}). {title}, Version: {version}. [{url}]({url})")
+```
+
+### Conference Proceedings
+
+```{r abstracts, results="asis"}
+abstracts <-
+  bib |>
+  filter(type == "paper-conference") |>
+  mutate(numbers = case_when(
+    !is.na(issue) ~ paste0(volume, "(", issue, ")", ", ", page),
+    is.na(issue) ~ paste0(volume, ", ", page),
+  ))
+
+glue_data(abstracts, "1. {authors} ({year(date)}). {title}. {meeting}, {date}, {location}. In: {journal} {numbers}. doi:doi:[{doi}](https://doi.org/{doi})")
 ```

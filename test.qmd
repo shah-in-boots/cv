@@ -166,48 +166,9 @@ gt(education) |>
 
 ### Postdoctoral Training
 
-## Appointments
-
-### Academic Appointments
-
-### Clinical Appointments
-
-## Professional Activities
-
-### Professional Societies
-
-### Service
-
-Manuscript reviews
-
-## Teaching and Mentoring
-
-### Courses and Workshops
-
-### Mentorship
-
-### Lectures
-
-## Invited Presentations
-
-### Regional
-
-### National
-
-### International
-
-- Academic mentorship
-- Student would identify as a mentee
 
 ## Funding Support
 
-## Honors and Awards
-
-### Institutional/Regional
-
-### National
-
-### International
 
 ## Skills
 
@@ -227,20 +188,3 @@ Manuscript reviews
 
 ### International
 
-
-## Bibliography
-
-### Peer-Reviewed Publications
-
-- Bold faculty name
-- Asterisk by mentee name
-
-### Manuscripts Accepted for Publication
-
-### Manuscripts Submitted for Publication
-
-### Books and Book Chapters
-
-### Software 
-
-### Case Reports
