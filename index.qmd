@@ -6,8 +6,10 @@ format:
       - colors.scss
       - multilingual-cv.scss
   pdf:
+    author: Anish S. Shah, MD, MS
     pdf-engine: weasyprint
-  
+
+css: pdf-cv.css
 format-links: [pdf]
 
 lightbox: true
@@ -72,7 +74,8 @@ bib <-
          publication = 'container-title',
          meeting = event,
          location = 'event-place',
-         url = URL)
+         url = URL,
+         doi = DOI)
 ```
 
 ::: {.center}
@@ -174,5 +177,20 @@ articles <-
     is.na(issue) ~ paste0(volume, ", ", page),
   ))
 
-glue_data(articles, "1. {authors} ({year(date)}). {title}. {title} {numbers}.")
+glue_data(articles, "1. {authors} ({year(date)}). {title}. {title} {numbers}. DOI: {doi}")
+```
+
+### Software
+
+```{r packages, results="asis"}
+software <-
+  bib |>
+  filter(type == "software") |>
+  # Fix formatting of titles
+  mutate(
+    title = sub("^Card", "card", title),
+    title = sub("^Rmdl", "rmdl", title)
+  )
+
+glue_data(software, "1. {authors} ({year(date)}). {title}, Version: {version}. {url}")
 ```
