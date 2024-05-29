@@ -2,12 +2,12 @@
 format: 
   html:
     toc: true 
+    theme:
+      - colors.scss
+      - multilingual-cv.scss
   pdf:
-    author: Anish S. Shah
     pdf-engine: weasyprint
-css:
-  - format-cv.scss
-  - colors.scss
+  
 format-links: [pdf]
 
 lightbox: true
