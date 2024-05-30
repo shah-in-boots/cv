@@ -68,9 +68,11 @@ bib <-
     !is.na(publisher_place) ~ publisher_place,
     TRUE ~ NA
   )) |>
-  rename(journal = container_title,
-         journal_short = container_title_short,
-         meeting = event) |> 
+  rename(
+    journal = container_title,
+    journal_short = container_title_short,
+    meeting = event
+  ) |>
   select(
     -author,
     -starts_with("issued"),
@@ -83,8 +85,12 @@ bib <-
     -publisher_place,
     -collection_title,
     -language
-  ) |> 
-  arrange(date) 
+  ) |>
+  arrange(date)
+
+# Mentees
+# The mentorship section should include any people you are or have been mentoring. When deciding who to include, consider whether you could readily describe the skills, knowledge, insights, or value you have provided to the mentee. This section should include their name, length of mentorship, current role (e.g., faculty role, fellow, resident, medical student), and institution as well as their prior role when you began mentoring them (if applicable). As not all institutional CV formats have a designated location for this, you could consider making this a separate appendix file.
+mentees <- read_csv("mentees.csv")
 ```
 
 ::: {.center}
@@ -156,11 +162,68 @@ United States of America
 **Fellowship** -- Clinical Cardiac Electrophysiology [2024 -- 2026]{.cvdate}  
 *University of Utah School of Medicine*
 
-## Certification
+## Skills 
 
-American Board of Internal Medicine Certification  
-Cardiology Boards
-Echo boards
+### Clinical Skills
+
+Point-of-care ultrasonography   
+Arterial line placement (radial, brachial, dorsalis pedis)  
+Arthrocentesis (knee, ankle, shoulder)  
+Central line placement (internal jugular, femoral, subclavian)  
+Lumbar puncture  
+Thoracentesis  
+Paracentesis  
+Coronary angiography  
+Temporary/permanent pacemaker implantation  
+Echocardiography - 2D/3D, transthoracic and transesophageal
+
+### Languages
+
+- English -- fluent
+- Gujurati -- fluent
+- Spanish -- fluent
+
+### Technical Skills
+
+`R` - programming language for statistical computing  
+`PERL` - high-level programming language for text processing and manipulation  
+`C++` - low-level programming language for data processing  
+`Vim` - command line editing   
+`Git` - version control system   
+`MATLAB` - matrix-oriented mathematical programming language   
+`Python` - high-level programming language for data analysis  
+
+### Certifications
+
+Emergency Medical Technician Basic [2007 -- 2010]{.cvdate}
+*National Registry of Emergency Medical Technicians*
+
+Basic Life Support [2012 -- Present]{.cvdate}  
+*American Heart Association*
+
+Advanced Cardiovascular Life Support [2012 -- Present]{.cvdate}  
+*American Heart Association*
+
+Advanced Trauma Life Support [2012 -- 2016]{.cvdate}
+*American College of Surgeons*
+
+Open Water Diver [2015 -- Present]{.cvdate}  
+*Professional Association of Diving Instructors*
+
+Wilderness First Responder [2016 -- Present]{.cvdate}
+*National Outdoor Leadership School*
+
+Basic Keelboat 101 [2017 -- Present]{.cvdate}  
+*American Sailing Association*
+
+Internal Medicine [2019 -- Present]{.cvdate}  
+*American Board of Internal Medicine*
+
+Adult Echocardiography [2023 -- Present]{.cvdate}  
+*National Board of Echocardiography*
+
+Cardiovascular Medicine [2023 -- Present]{.cvdate}  
+*American Board of Internal Medicine*
 
 ## Appointments
 
@@ -318,9 +381,22 @@ Clinical Case Conference: Dilated Cardiomyopathy [April 8, 2024]{.cvdate}
 
 ### Mentorship
 
-Shashank Sadhu
-Darren Seaney
+```{r mentees, results="asis"}
+dat <- 
+	mentees |>
+	arrange(start) |>
+  mutate(end = as.character(end)) |>
+  mutate(end = if_else(is.na(end), "Present", end)) |>
+  mutate(notes = gsub(", ", "<br>", notes))
 
+glue_data(dat, "
+{name} [{start} -- {end}]{{.cvdate}}  
+*{role}* at *{institution}*
+
+- {notes}
+
+	")
+```
 
 ## Invited Presentations
 
@@ -358,23 +434,32 @@ Circadian Autonomic Inflexibility: A Marker of Ischemic Heart Disease [November 
 
 - Top Donors Meeting Presentation
 
-Mendelian Randomization
+ECG Prediction of Loss-of-Function *TTN* Variants [March 27, 2024]{.cvdate}  
+*AFGen Consortium Fellowship Meeting*
 
-Work in Progress ECG and UKBbiobank
+Mendelian Randomization in Practice [April 24, 2024]{.cvdate}  
+*AFGen Consortium Fellows Meeting*
 
 ## Funding
 
-`2019-2020`  
-Postdoctoral Scholar, NIH-TL1 Training Grant  
-Georgia Clinical and Translational Science Alliance  
-_Disturbances of the Neurocardiac Axis: Using Heart Rate Variability to Measure Disease in the Brain and Heart_  
-Grant: TL1TR002382, UL1TR002378  
+**NIH-T32 Postdoctoral Scholar** [2019 -- 2020]{.cvdate}  
+*Disturbances of the Neurocardiac Axis: Using Heart Rate Variability to Measure Disease in the Brain and Heart*  
+*NHLBI Training Grant*
 
+- TL1-TR002382
+- UL1-TR002378  
 
-Postdoctoral Scholar, NIH-T32
+**NIH-T32 Postdoctoral Fellow** [2022 -- 2024]{.cvdate}  
+*Training Program in Personalized Cardiovascular Medicine (TPIPCVM)*  
+*NHLBI Training Grant*
 
-Principal Investigator
-NIH-F32
+- T32-HL139439
+
+**NIH-F32 Principal Investigator** [2021 -- 2024]{.cvdate}
+*Association of Autonomic Dysfunction with the Relationship between Depression and Coronary Disease*  
+*NHLBI Training Grant*
+
+- F32-HL154707
 
 ## Publications
 
@@ -419,7 +504,7 @@ glue_data(rip, "1. {authors} ({year(date)}). {title}.")
 ```{r thesis, results="asis"}
 thesis <-
   bib |>
-  filter(type == "thesis") 
+  filter(type == "thesis")
 
 glue_data(thesis, "1. {authors} ({year(date)}). '{title}'. Master's Thesis. {publisher}. [{url}]({url})")
 ```
