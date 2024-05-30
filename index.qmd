@@ -32,6 +32,9 @@ library(glue)
 dat <- read_csv("entries.csv")
 
 # Publications
+#   Publisher is company or institution, but there are exceptions
+#   Exceptions include when is manuscript (unpublished)
+#   Then, options are: 1) draft, 2) rip
 bib <-
   rmarkdown::pandoc_citeproc_convert("../bibliography/publications.bib", type = "json") |>
   jsonlite::fromJSON(simplifyVector = TRUE) |>
@@ -167,7 +170,7 @@ Echo boards
 - NIH-TL1 Scholar
 - Primary Mentor: Amit J. Shah, MD, MS
 
-**Assistant Professor of Medicine** -- Hospital Medicine [2019 -- 2020]{.cvdate}
+**Assistant Professor of Medicine** [2019 -- 2020]{.cvdate}  
 *Division of Hospital Medicine, Emory University School of Medicine*
 
 - Service Lines: Hospital Medicine, Procedure Service
@@ -175,7 +178,6 @@ Echo boards
 
 **Instructor of Medicine** [2020 -- 2024]{.cvdate}  
 *College of Medicine, University of Illinois Chicago*
-
 
 ## Honors and Awards
 
@@ -227,7 +229,7 @@ NIH-F32 Postdoctoral Fellow [2021-2024]{.cvdate}
 
 ### International
 
-Atrial Fibrillation Genetics Consortium Fellow [2023 -- 2024]{.cvdate}
+Atrial Fibrillation Genetics Consortium Fellow [2023 -- 2024]{.cvdate}  
 *Atrial Fibrillation Genetics Consortium*
 
 ## Professional Activities
@@ -254,45 +256,121 @@ Heart Rhythm Society [2023 -- Present]{.cvdate}
 
 ### Service
 
+*Ad-Hoc Reviewer*:  
+
 BMJ Open Diabetes Research & Care [2019]{.cvdate}  
-*Ad-Hoc Reviewer*
-
 Journal of Electroconvulsive Therapy [2020]{.cvdate}  
-*Ad-Hoc Reviewer*
-
-Journal of Cardiovascular Electrophysiology [2021]{.cvdate}
-*Ad-Hoc Reviewer*
-
-BMJ Open [2021]{.cvdate}
-*Ad-Hoc Reviewer*
-
-Circulation: Arrhythmia and Electrophysiology [2023]{.cvdate}
-*Ad-Hoc Reviewer*
-
+Journal of Cardiovascular Electrophysiology [2021]{.cvdate}  
+BMJ Open [2021]{.cvdate}  
+Circulation: Arrhythmia and Electrophysiology [2023]{.cvdate}  
 Applied Psychophysiology and Biofeedback [2024]{.cvdate}  
-*Ad-Hoc Reviewer*
+BMC Global and Public Health [2024]{.cvdate}   
 
-BMC Global and Public Health [2024]{.cvdate}  
-*Ad-Hoc Reviewer*
+## Teaching and Mentoring Activities
 
-## Teaching and Mentoring
+### Preceptorship
 
-### Courses and Workshops
+Teaching Assistant -- Cellular Biology [2010]{.cvdate}  
+*Department of Biology, Emory University College of Arts and Sciences*
+
+Tutor -- Biology, Chemistry, Physics [2011 -- 2012]{.cvdate}  
+*Department of Physics, North Lake College*
+
+Tutor -- Histology [2013]{.cvdate}   
+*Texas A&M University College of Medicine*
+
+Faculty Preceptor -- Physician Assistant Program [2017 -- 2019]{.cvdate}  
+*Didactic Experiential Learning Program, Emory University School of Medicine*
+
+Teaching Attending -- Point-of-Care Ultrasound Elective [2019 -- 2020]{.cvdate}
+*J. Willis Hurst Internal Medicine Residency Program, Emory University School of Medicine*
+
+### Workshops
+
+Session Leader -- Internship Bootcamp [2016]{.cvdate}  
+*Texas A&M University College of Medicine*
+
+Workshop Leader -- M3 Ultrasound Workshop [2018 -- 2019]{.cvdate}  
+*Emory University School of Medicine*
+
+Workshop Leader -- Physical Exam and Clinical Decision Making [2019]{.cvdate}  
+*Emory University School of Medicine*
+
+Workshop Leader -- Point-of-Care Ultrasound Workshop [2018]{.cvdate}  
+*Southern Hospital Medicine Conference*
+
+### Clinical Presentations
+
+*Emory University*:
+
+Bite-Sized Teaching Mode: Lotions, Ointments, and Creams, Oh My! [February 28, 2018]{.cvdate}  
+Journal Club: Intervention for Ischemic Stroke [March 21, 2018]{.cvdate}  
+Bite-Sized Teaching Mode: Ironing Out Transfusions in Sickle Cell [September 26, 2018]{.cvdate}
+
+*University of Illinois Chicago*:
+
+Clinical Case Conference: Restrictive Cardiomyopathy [December 20, 2020]{.cvdate}  
+Journal Club: GALACTIC-HF [February 1, 2021]{.cvdate}  
+Cardiac Catheterization Conference: Antiplatelet Agents [November 16, 2021]{.cvdate}  
+Electrophysiology Conference: Typical AVNRT [December 7, 2022]{.cvdate}  
+Echocardiography Conference: Hypertrophic Cardiomyopathy [February 23, 2023]{.cvdate}   
+Clinical Case Conference: Dilated Cardiomyopathy [April 8, 2024]{.cvdate}   
 
 ### Mentorship
 
-### Lectures
+Shashank Sadhu
+Darren Seaney
+
 
 ## Invited Presentations
 
+### Local
+
+Point-of-Care Ultrasound: Parasternal Long Axis [November 16, 2017]{.cvdate}  
+*Division of General Medicine and Geriatrics*  
+*Emory University School of Medicine*
+
+The Problem Learner: A History and Physical for Learners with Difficulties [March 15, 2018]{.cvdate}  
+*J. Willis Hurst Internal Medicine Residency Program*  
+*Emory University School of Medicine*
+
+The History of Sudden Cardiac Death: the Role of the Autonomic Nervous System [February 18, 2019]{.cvdate}  
+*J. Willis Hurst Internal Medicine Residency Program*  
+*Emory University School of Medicine*
+
+- Senior Grand Rounds
+
+Vagolysis and Arrhythmogenesis [February 12, 2023]{.cvdate}
+*University of Illinois Chicago Department of Medicine*
+
+Autonomic and Structural Mechanisms in Atrial Fibrillation [December 18, 2023]{.cvdate}  
+*University of Illinois Chicago Department of Medicine*
+
 ### Regional
+
+"8 Minutes-to-Win-It": Top Inpatient Teaching Sessions by Soon-To-Be-Leaders [October 4, 2018]{.cvdate}  
+*Southern Hospital Medicine Conference*
 
 ### National
 
-### International
+Circadian Autonomic Inflexibility: A Marker of Ischemic Heart Disease [November 6, 2018]{.cvdate}  
+*American Heart Association Scientific Sessions*
 
-- Academic mentorship
-- Student would identify as a mentee
+- Top Donors Meeting Presentation
+
+## Funding
+
+`2019-2020`  
+Postdoctoral Scholar, NIH-TL1 Training Grant  
+Georgia Clinical and Translational Science Alliance  
+_Disturbances of the Neurocardiac Axis: Using Heart Rate Variability to Measure Disease in the Brain and Heart_  
+Grant: TL1TR002382, UL1TR002378  
+
+
+Postdoctoral Scholar, NIH-T32
+
+Principal Investigator
+NIH-F32
 
 ## Publications
 
@@ -315,9 +393,21 @@ glue_data(articles, "1. {authors} ({year(date)}). {title}. {journal} {numbers}. 
 ```{r manuscripts, results="asis"}
 manuscripts <-
   bib |>
-  filter(type == "manuscript") 
+  filter(type == "manuscript") |>
+  filter(publisher == "draft")
 
 glue_data(manuscripts, "1. {authors} ({year(date)}). {title}.")
+```
+
+### Research-In-Progress
+
+```{r rip, results="asis"}
+rip <-
+  bib |>
+  filter(type == "manuscript") |>
+  filter(publisher == "rip")
+
+glue_data(rip, "1. {authors} ({year(date)}). {title}.")
 ```
 
 ### Monographs
