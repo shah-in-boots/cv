@@ -1,5 +1,4 @@
 ---
-title: Curriculum Vitae
 format: 
   html:
     toc: true 
