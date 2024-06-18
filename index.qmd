@@ -344,7 +344,7 @@ Tutor -- Histology [2013]{.cvdate}
 Faculty Preceptor -- Physician Assistant Program [2017 -- 2019]{.cvdate}  
 *Didactic Experiential Learning Program, Emory University School of Medicine*
 
-Teaching Attending -- Point-of-Care Ultrasound Elective [2019 -- 2020]{.cvdate}
+Teaching Attending -- Point-of-Care Ultrasound Elective [2019 -- 2020]{.cvdate}  
 *J. Willis Hurst Internal Medicine Residency Program, Emory University School of Medicine*
 
 ### Workshops
@@ -415,7 +415,7 @@ The History of Sudden Cardiac Death: the Role of the Autonomic Nervous System [F
 
 - Senior Grand Rounds
 
-Vagolysis and Arrhythmogenesis [February 12, 2023]{.cvdate}
+Vagolysis and Arrhythmogenesis [February 12, 2023]{.cvdate}  
 *University of Illinois Chicago Department of Medicine*
 
 Autonomic and Structural Mechanisms in Atrial Fibrillation [December 18, 2023]{.cvdate}  
