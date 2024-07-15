@@ -325,6 +325,7 @@ Journal of Electroconvulsive Therapy [2020]{.cvdate}
 Journal of Cardiovascular Electrophysiology [2021]{.cvdate}  
 BMJ Open [2021]{.cvdate}  
 Circulation: Arrhythmia and Electrophysiology [2023]{.cvdate}  
+American Journal of Cardiology [2022-2023]{.cvdate}
 Applied Psychophysiology and Biofeedback [2024]{.cvdate}  
 BMC Global and Public Health [2024]{.cvdate}   
 
