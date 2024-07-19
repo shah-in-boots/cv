@@ -1,0 +1,52 @@
+---
+format:
+  pdf:
+    papersize: letter
+    margin-left: 0.5in
+    margin-right: 0.5in
+    margin-top: 0.5in
+    margin-bottom: 0.5in
+    mainfont: Arial
+    fontsize: 11pt
+    linestretch: 1.15
+    theme:
+    
+css: nih.css
+---
+
+BIOGRAPHICAL SKETCH
+
+::: {.header-note}
+OMB No. 0925-0001 and 0925-0002 (Rev. 10/2021 Approved Through 01/31/2026)
+Provide the following information for the Senior/key personnel and other significant contributors.
+Follow this format for each person. DO NOT EXCEED FIVE PAGES.
+:::
+
+::: {.info-grid}
+<div class="info-label">NAME:</div><div></div>
+<div class="info-label">eRA COMMONS USER NAME (credential, e.g., agency login):</div><div></div>
+<div class="info-label">POSITION TITLE:</div><div></div>
+:::
+
+EDUCATION/TRAINING
+
+::: {.note}
+(Begin with baccalaureate or other initial professional education, such as nursing, include postdoctoral training and residency training if applicable. Add/delete rows as necessary.)
+:::
+
+| INSTITUTION AND LOCATION | DEGREE (if applicable) | Start Date MM/YYYY | Completion Date MM/YYYY | FIELD OF STUDY |
+| ----- | ----- | ----- | ----- | ----- |
+
+A. Personal Statement
+
+[Insert your personal statement here.]
+
+B. Positions, Scientific Appointments and Honors
+
+[List in chronological order your positions, scientific appointments, and honors.]
+
+C. Contributions to Science
+
+[Describe up to five of your most significant contributions to science.]
+
+D. Scholastic Performance
