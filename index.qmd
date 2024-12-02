@@ -16,9 +16,12 @@ lightbox: true
 
 execute:
   echo: false
+  cache: false
 ---
 
-```{r setup, include=FALSE}
+```{r}
+#| label: setup
+#| include: false
 knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 # Libraries
@@ -111,19 +114,19 @@ mentees <- read_csv("mentees.csv")
 ::: {.column width="50%"}
 _Office_
 
-University of Illinois Chicago  
-Division of Cardiology  
-840 S Wood St  
-Suite 920, M/C 715  
-Chicago, IL 60612  
+University of Utah  
+Division of Cardiology   
+30 North Mario Capecchi Drive  
+3rd Floor North  
+Salt Lake City, UT 84112  
 :::
 ::: {.column width="50%"}
 _Clinic_
 
-Jesse Brown VA Medical Center  
-820 S. Damen Avenue  
-Specialty Clinic, 2nd Floor, Damen Tower  
-Chicago, IL 60612  
+George E. Wahlen VA Medical Center  
+500 Foothill Drive  
+Building 1, 2nd Floor  
+Salt Lake City, UT 84148  
 :::
 ::::
 
